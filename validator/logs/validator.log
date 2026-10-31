@@ -1,0 +1,132 @@
+2026-09-05 14:52:56.437 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-05 14:52:56.580 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-05 14:52:56.609 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-05 14:52:56.609 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-05 14:57:10.634 [RMI TCP Connection(2)-10.51.20.22] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-05 14:57:10.636 [RMI TCP Connection(2)-10.51.20.22] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-05 14:57:10.646 [RMI TCP Connection(2)-10.51.20.22] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-999
+2026-09-05 14:57:10.651 [RMI TCP Connection(2)-10.51.20.22] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-999 je NEISPRAVNA, gresaka: 6 -> [JIB mora imati tacno 13 cifara, dobijeno: 123, Email nije u ispravnom formatu: nijeemail, Datum ne smije biti u buducnosti: 2026-09-10, Stavka 1: kolicina mora biti pozitivna, dobijeno -3, Stavka 1: cijena mora biti pozitivna, dobijeno -10.00, Valuta nije podrzana: RSD, dozvoljene: [EUR, GBP, CHF, BAM, USD]]
+2026-09-09 00:20:43.240 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-09 00:20:43.414 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-09 00:20:43.442 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-09 00:20:43.442 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-09 00:22:07.068 [RMI TCP Connection(2)-192.168.1.104] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-09 00:22:07.070 [RMI TCP Connection(2)-192.168.1.104] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-09 00:32:57.046 [RMI TCP Connection(5)-192.168.1.104] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-09 00:32:57.047 [RMI TCP Connection(5)-192.168.1.104] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-09 11:25:29.622 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-09 11:25:29.804 [main] ERROR net.unibl.etf.mdp.validator.ValidatorApp - Greska pri pokretanju Validator servisa
+java.rmi.server.ExportException: Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use: bind
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:356)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:251)
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:415)
+	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:235)
+	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:223)
+	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:208)
+	at java.rmi/java.rmi.registry.LocateRegistry.createRegistry(LocateRegistry.java:203)
+	at net.unibl.etf.mdp.validator.ValidatorApp.main(ValidatorApp.java:23)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:672)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:344)
+	... 8 common frames omitted
+2026-09-09 11:26:30.768 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-09 11:26:30.888 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-09 11:26:30.908 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-09 11:26:30.908 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-09 11:32:15.187 [RMI TCP Connection(2)-192.168.1.105] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-09 11:32:15.189 [RMI TCP Connection(2)-192.168.1.105] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-09 11:40:30.961 [RMI TCP Connection(4)-192.168.1.105] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-999
+2026-09-09 11:40:30.965 [RMI TCP Connection(4)-192.168.1.105] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-999 je NEISPRAVNA, gresaka: 3 -> [JIB mora imati tacno 13 cifara, dobijeno: 123, Email nije u ispravnom formatu: nijeemail, Valuta nije podrzana: RSD, dozvoljene: [GBP, CHF, BAM, USD, EUR]]
+2026-09-11 11:03:54.419 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 11:03:54.637 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 11:03:54.668 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 11:03:54.669 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 11:07:59.494 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-11 11:07:59.496 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-11 11:45:17.398 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 11:45:17.529 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 11:45:17.555 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 11:45:17.555 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 11:46:31.981 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-11 11:46:31.983 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-11 12:04:21.454 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 12:04:21.590 [main] ERROR net.unibl.etf.mdp.validator.ValidatorApp - Greska pri pokretanju Validator servisa
+java.rmi.server.ExportException: Port already in use: 1099; nested exception is: 
+	java.net.BindException: Address already in use: bind
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:356)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:251)
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:415)
+	at java.rmi/sun.rmi.transport.LiveRef.exportObject(LiveRef.java:147)
+	at java.rmi/sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:235)
+	at java.rmi/sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:223)
+	at java.rmi/sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:208)
+	at java.rmi/java.rmi.registry.LocateRegistry.createRegistry(LocateRegistry.java:203)
+	at net.unibl.etf.mdp.validator.ValidatorApp.main(ValidatorApp.java:23)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:565)
+	at java.base/sun.nio.ch.Net.bind(Net.java:554)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:389)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:276)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:170)
+	at java.rmi/sun.rmi.transport.tcp.TCPDirectSocketFactory.createServerSocket(TCPDirectSocketFactory.java:45)
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:672)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:344)
+	... 8 common frames omitted
+2026-09-11 12:06:21.707 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 12:06:21.852 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 12:06:21.874 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 12:06:21.875 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 12:08:06.205 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-11 12:08:06.209 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-11 12:22:55.925 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 12:22:56.060 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 12:22:56.082 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 12:22:56.083 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 12:24:40.597 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-001
+2026-09-11 12:24:40.599 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-001 je ISPRAVNA
+2026-09-11 12:27:10.113 [RMI TCP Connection(3)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-002
+2026-09-11 12:27:10.114 [RMI TCP Connection(3)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-002 je ISPRAVNA
+2026-09-11 13:02:26.824 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 13:02:26.998 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 13:02:27.019 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 13:02:27.019 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 13:09:11.749 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-003
+2026-09-11 13:09:11.751 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-003 je ISPRAVNA
+2026-09-11 13:19:35.682 [RMI TCP Connection(5)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-033
+2026-09-11 13:19:35.683 [RMI TCP Connection(5)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-033 je ISPRAVNA
+2026-09-11 13:24:25.054 [RMI TCP Connection(6)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-333
+2026-09-11 13:24:25.055 [RMI TCP Connection(6)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-333 je ISPRAVNA
+2026-09-11 13:25:20.341 [RMI TCP Connection(7)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-433
+2026-09-11 13:25:20.342 [RMI TCP Connection(7)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-433 je ISPRAVNA
+2026-09-11 13:36:55.191 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 13:36:55.337 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 13:36:55.359 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 13:36:55.359 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 13:43:49.119 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-010
+2026-09-11 13:43:49.120 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-010 je ISPRAVNA
+2026-09-11 14:08:45.657 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 14:08:45.749 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 14:08:45.764 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 14:08:45.764 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 14:10:43.910 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-020
+2026-09-11 14:10:43.910 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-020 je ISPRAVNA
+2026-09-11 14:33:38.062 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 14:33:38.164 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 14:33:38.182 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 14:33:38.183 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 14:36:35.217 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-111
+2026-09-11 14:36:35.218 [RMI TCP Connection(2)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-111 je ISPRAVNA
+2026-09-11 14:42:59.704 [RMI TCP Connection(4)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2025-223
+2026-09-11 14:42:59.705 [RMI TCP Connection(4)-192.168.1.108] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2025-223 je ISPRAVNA
