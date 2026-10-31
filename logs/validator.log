@@ -1,0 +1,82 @@
+2026-09-11 16:34:39.209 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-11 16:34:39.395 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-11 16:34:39.459 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-11 16:34:39.460 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-11 16:38:25.254 [RMI TCP Connection(2)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0001
+2026-09-11 16:38:25.254 [RMI TCP Connection(5)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0003
+2026-09-11 16:38:25.255 [RMI TCP Connection(4)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0002
+2026-09-11 16:38:25.256 [RMI TCP Connection(3)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0004
+2026-09-11 16:38:25.258 [RMI TCP Connection(2)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0001 je ISPRAVNA
+2026-09-11 16:38:25.260 [RMI TCP Connection(3)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0004 je ISPRAVNA
+2026-09-11 16:38:25.259 [RMI TCP Connection(4)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0002 je ISPRAVNA
+2026-09-11 16:38:25.278 [RMI TCP Connection(5)-192.168.100.71] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0003 je NEISPRAVNA, gresaka: 3 -> [Datum je stariji od 365 dana: 2024-12-17, Stavka 1: kolicina mora biti pozitivna, dobijeno -5, Stavka 1: cijena mora biti pozitivna, dobijeno -13]
+2026-09-11 16:38:26.794 [RMI TCP Connection(5)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0005
+2026-09-11 16:38:26.796 [RMI TCP Connection(5)-192.168.100.71] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0005 je NEISPRAVNA, gresaka: 2 -> [Stavka 1: kolicina mora biti pozitivna, dobijeno -2, Stavka 1: cijena mora biti pozitivna, dobijeno -33]
+2026-09-11 16:38:26.812 [RMI TCP Connection(5)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0007
+2026-09-11 16:38:26.826 [RMI TCP Connection(4)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0008
+2026-09-11 16:38:26.830 [RMI TCP Connection(5)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0007 je ISPRAVNA
+2026-09-11 16:38:26.830 [RMI TCP Connection(4)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0008 je ISPRAVNA
+2026-09-11 16:38:26.827 [RMI TCP Connection(3)-192.168.100.71] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0006
+2026-09-11 16:38:26.831 [RMI TCP Connection(3)-192.168.100.71] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0006 je NEISPRAVNA, gresaka: 3 -> [Stavka 1: kolicina mora biti pozitivna, dobijeno -5, Stavka 1: cijena mora biti pozitivna, dobijeno -101, Valuta nije podrzana: RSD, dozvoljene: [USD, BAM, CHF, GBP, EUR]]
+2026-09-14 10:32:17.683 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI hostname postavljen na localhost
+2026-09-14 10:32:17.690 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-14 10:32:17.797 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-14 10:32:17.829 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-14 10:32:17.830 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-14 10:34:02.521 [RMI TCP Connection(2)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0002
+2026-09-14 10:34:02.521 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0004
+2026-09-14 10:34:02.521 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0003
+2026-09-14 10:34:02.521 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0001
+2026-09-14 10:34:02.523 [RMI TCP Connection(2)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0002 je ISPRAVNA
+2026-09-14 10:34:02.523 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0004 je ISPRAVNA
+2026-09-14 10:34:02.523 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0001 je ISPRAVNA
+2026-09-14 10:34:02.533 [RMI TCP Connection(3)-127.0.0.1] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0003 je NEISPRAVNA, gresaka: 3 -> [Datum je stariji od 365 dana: 2024-12-17, Stavka 1: kolicina mora biti pozitivna, dobijeno -5, Stavka 1: cijena mora biti pozitivna, dobijeno -13]
+2026-09-14 10:34:03.447 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0005
+2026-09-14 10:34:03.447 [RMI TCP Connection(3)-127.0.0.1] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0005 je NEISPRAVNA, gresaka: 2 -> [Stavka 1: kolicina mora biti pozitivna, dobijeno -2, Stavka 1: cijena mora biti pozitivna, dobijeno -33]
+2026-09-14 10:34:03.464 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0007
+2026-09-14 10:34:03.465 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0006
+2026-09-14 10:34:03.465 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0007 je ISPRAVNA
+2026-09-14 10:34:03.467 [RMI TCP Connection(4)-127.0.0.1] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0006 je NEISPRAVNA, gresaka: 3 -> [Stavka 1: kolicina mora biti pozitivna, dobijeno -5, Stavka 1: cijena mora biti pozitivna, dobijeno -101, Valuta nije podrzana: RSD, dozvoljene: [BAM, CHF, GBP, EUR, USD]]
+2026-09-14 10:34:03.493 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0008
+2026-09-14 10:34:03.494 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0008 je ISPRAVNA
+2026-09-14 10:34:03.692 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0011
+2026-09-14 10:34:03.693 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0011 je ISPRAVNA
+2026-09-14 10:34:03.705 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0009
+2026-09-14 10:34:03.706 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0009 je ISPRAVNA
+2026-09-14 10:34:03.749 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0010
+2026-09-14 10:34:03.749 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0012
+2026-09-14 10:34:03.749 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0010 je ISPRAVNA
+2026-09-14 10:34:03.750 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0012 je ISPRAVNA
+2026-09-14 10:34:03.909 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0013
+2026-09-14 10:34:03.911 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0013 je ISPRAVNA
+2026-09-14 10:38:55.277 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI hostname postavljen na localhost
+2026-09-14 10:38:55.285 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Pokretanje Validator servisa...
+2026-09-14 10:38:55.395 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - RMI registry podignut na portu 1099
+2026-09-14 10:38:55.411 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Servis registrovan pod imenom 'ValidatorService'
+2026-09-14 10:38:55.412 [main] INFO  net.unibl.etf.mdp.validator.ValidatorApp - Validator servis je spreman i ceka zahtjeve.
+2026-09-14 10:39:36.374 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0012
+2026-09-14 10:39:36.374 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0013
+2026-09-14 10:39:36.374 [RMI TCP Connection(2)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0010
+2026-09-14 10:39:36.374 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0011
+2026-09-14 10:39:36.377 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0012 je ISPRAVNA
+2026-09-14 10:39:36.377 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0011 je ISPRAVNA
+2026-09-14 10:39:36.377 [RMI TCP Connection(2)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0010 je ISPRAVNA
+2026-09-14 10:39:36.377 [RMI TCP Connection(4)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0013 je ISPRAVNA
+2026-09-14 10:39:37.189 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0016
+2026-09-14 10:39:37.190 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0016 je ISPRAVNA
+2026-09-14 10:39:37.234 [RMI TCP Connection(3)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0014
+2026-09-14 10:39:37.236 [RMI TCP Connection(3)-127.0.0.1] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0014 je NEISPRAVNA, gresaka: 1 -> [Datum je stariji od 365 dana: 2024-11-28]
+2026-09-14 10:39:37.241 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0015
+2026-09-14 10:39:37.241 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0015 je ISPRAVNA
+2026-09-14 10:39:37.270 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0017
+2026-09-14 10:39:37.271 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0017 je ISPRAVNA
+2026-09-14 10:39:37.401 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0018
+2026-09-14 10:39:37.402 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0018 je ISPRAVNA
+2026-09-14 10:39:37.432 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0019
+2026-09-14 10:39:37.440 [RMI TCP Connection(5)-127.0.0.1] WARN  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0019 je NEISPRAVNA, gresaka: 2 -> [Stavka 1: kolicina mora biti pozitivna, dobijeno -2, Stavka 1: cijena mora biti pozitivna, dobijeno -41]
+2026-09-14 10:39:37.448 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0020
+2026-09-14 10:39:37.449 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0020 je ISPRAVNA
+2026-09-14 10:39:37.489 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0021
+2026-09-14 10:39:37.490 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0021 je ISPRAVNA
+2026-09-14 10:39:37.635 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Primljen zahtjev za validaciju fakture: INV-2026-0022
+2026-09-14 10:39:37.635 [RMI TCP Connection(5)-127.0.0.1] INFO  net.unibl.etf.mdp.validator.ValidatorServiceImpl - Faktura INV-2026-0022 je ISPRAVNA

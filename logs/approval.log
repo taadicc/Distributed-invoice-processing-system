@@ -1,0 +1,90 @@
+2026-09-11 16:35:23.878 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 16:35:24.295 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 16:35:24.299 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 16:38:32.163 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0002 sa iznosom 31.08 BAM
+2026-09-11 16:38:32.164 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0002 (31.08 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-11 16:38:32.169 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 16:38:32.318 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0002 poslana na topic invoices.approved
+2026-09-11 16:38:32.339 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0004 sa iznosom 12952.88 BAM
+2026-09-11 16:38:32.340 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0004 (12952.88 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 16:38:32.378 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0004 poslana na topic invoices.pending_approval
+2026-09-11 16:38:32.422 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0001 sa iznosom 4715.73 BAM
+2026-09-11 16:38:32.423 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0001 (4715.73 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 16:38:32.463 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0001 poslana na topic invoices.pending_approval
+2026-09-11 16:38:32.474 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0007 sa iznosom 12557.84 BAM
+2026-09-11 16:38:32.475 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0007 (12557.84 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 16:38:32.523 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0007 poslana na topic invoices.pending_approval
+2026-09-11 16:38:32.538 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0008 sa iznosom 24606.18 BAM
+2026-09-11 16:38:32.539 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0008 (24606.18 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 16:38:32.598 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0008 poslana na topic invoices.pending_approval
+2026-09-14 10:32:24.127 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-14 10:32:24.533 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-14 10:32:24.537 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-14 10:34:07.105 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0001 sa iznosom 4715.73 BAM
+2026-09-14 10:34:07.107 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0001 (4715.73 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.141 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-14 10:34:07.286 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0001 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.313 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0002 sa iznosom 30.99 BAM
+2026-09-14 10:34:07.314 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0002 (30.99 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-14 10:34:07.356 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0002 poslana na topic invoices.approved
+2026-09-14 10:34:07.367 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0004 sa iznosom 12913.03 BAM
+2026-09-14 10:34:07.367 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0004 (12913.03 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.400 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0004 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.416 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0007 sa iznosom 12582.81 BAM
+2026-09-14 10:34:07.416 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0007 (12582.81 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.457 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0007 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.468 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0008 sa iznosom 24530.49 BAM
+2026-09-14 10:34:07.469 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0008 (24530.49 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.496 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0008 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.509 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0011 sa iznosom 1732.00 BAM
+2026-09-14 10:34:07.510 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0011 (1732.00 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.536 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0011 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.550 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0012 sa iznosom 6737.72 BAM
+2026-09-14 10:34:07.550 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0012 (6737.72 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.581 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0012 poslana na topic invoices.pending_approval
+2026-09-14 10:34:07.591 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0010 sa iznosom 21.00 BAM
+2026-09-14 10:34:07.591 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0010 (21.00 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-14 10:34:07.619 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0010 poslana na topic invoices.approved
+2026-09-14 10:34:07.633 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0009 sa iznosom 34.00 BAM
+2026-09-14 10:34:07.634 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0009 (34.00 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-14 10:34:07.673 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0009 poslana na topic invoices.approved
+2026-09-14 10:34:07.688 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0013 sa iznosom 6133.45 BAM
+2026-09-14 10:34:07.689 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0013 (6133.45 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:34:07.723 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0013 poslana na topic invoices.pending_approval
+2026-09-14 10:39:01.656 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-14 10:39:02.032 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-14 10:39:02.035 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-14 10:39:41.144 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0010 sa iznosom 21.00 BAM
+2026-09-14 10:39:41.145 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0010 (21.00 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-14 10:39:41.148 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-14 10:39:41.280 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0010 poslana na topic invoices.approved
+2026-09-14 10:39:41.308 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0011 sa iznosom 1732.00 BAM
+2026-09-14 10:39:41.309 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0011 (1732.00 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.346 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0011 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.362 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0013 sa iznosom 6133.45 BAM
+2026-09-14 10:39:41.362 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0013 (6133.45 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.396 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0013 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.406 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0012 sa iznosom 6737.72 BAM
+2026-09-14 10:39:41.407 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0012 (6737.72 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.431 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0012 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.441 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0016 sa iznosom 11131.61 BAM
+2026-09-14 10:39:41.441 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0016 (11131.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.470 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0016 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.488 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0017 sa iznosom 12675.68 BAM
+2026-09-14 10:39:41.488 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0017 (12675.68 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.515 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0017 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.525 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0015 sa iznosom 6123.93 BAM
+2026-09-14 10:39:41.525 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0015 (6123.93 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.550 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0015 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.561 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0018 sa iznosom 11773.51 BAM
+2026-09-14 10:39:41.561 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0018 (11773.51 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.614 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0018 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.635 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0020 sa iznosom 14027.05 BAM
+2026-09-14 10:39:41.635 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0020 (14027.05 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.661 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0020 poslana na topic invoices.pending_approval
+2026-09-14 10:39:41.670 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0021 sa iznosom 47.89 BAM
+2026-09-14 10:39:41.671 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0021 (47.89 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-14 10:39:41.692 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0021 poslana na topic invoices.approved
+2026-09-14 10:39:41.701 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2026-0022 sa iznosom 978.87 BAM
+2026-09-14 10:39:41.701 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2026-0022 (978.87 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-14 10:39:41.724 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2026-0022 poslana na topic invoices.pending_approval

@@ -1,0 +1,44 @@
+2026-09-11 16:50:47.507 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Pokretanje REST API servisa...
+2026-09-11 16:50:47.753 [main] INFO  net.unibl.etf.mdp.restapi.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 16:50:48.068 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - REST API servis slusa na http://localhost:8080
+2026-09-11 16:50:48.069 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Dostupni endpointi:
+2026-09-11 16:50:48.069 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices
+2026-09-11 16:50:48.070 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices/{{id}}
+2026-09-11 16:50:48.070 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices?status=approved
+2026-09-11 16:50:48.071 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/clients/{{jib}}/summary
+2026-09-11 16:50:48.072 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/stats
+2026-09-11 16:51:11.310 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-11 16:51:12.106 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 8 faktura, ukupno 54863.71 BAM
+2026-09-11 17:16:18.069 [pool-1-thread-2] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-11 17:16:18.101 [pool-1-thread-2] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 8 faktura, ukupno 54863.71 BAM
+2026-09-11 17:16:58.040 [pool-1-thread-3] INFO  net.unibl.etf.mdp.restapi.http.ClientHandler - GET /api/clients/4055893226262/summary
+2026-09-14 10:32:37.176 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Pokretanje REST API servisa...
+2026-09-14 10:32:37.440 [main] INFO  net.unibl.etf.mdp.restapi.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:32:37.731 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - REST API servis slusa na http://localhost:8080
+2026-09-14 10:32:37.732 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Dostupni endpointi:
+2026-09-14 10:32:37.733 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices
+2026-09-14 10:32:37.733 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices/{{id}}
+2026-09-14 10:32:37.733 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices?status=approved
+2026-09-14 10:32:37.733 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/clients/{{jib}}/summary
+2026-09-14 10:32:37.733 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/stats
+2026-09-14 10:39:14.653 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Pokretanje REST API servisa...
+2026-09-14 10:39:14.870 [main] INFO  net.unibl.etf.mdp.restapi.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - REST API servis slusa na http://localhost:8080
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Dostupni endpointi:
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices/{{id}}
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices?status=approved
+2026-09-14 10:39:15.142 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/clients/{{jib}}/summary
+2026-09-14 10:39:15.143 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/stats
+2026-09-14 10:40:49.414 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:40:50.216 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM
+2026-09-14 10:41:13.578 [pool-1-thread-3] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:41:13.639 [pool-1-thread-3] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM
+2026-09-14 10:41:23.189 [pool-1-thread-4] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:41:23.239 [pool-1-thread-4] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM
+2026-09-14 10:41:40.553 [pool-1-thread-5] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:41:40.608 [pool-1-thread-5] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM
+2026-09-14 10:42:26.515 [pool-1-thread-8] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:42:26.555 [pool-1-thread-8] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM
+2026-09-14 10:42:40.418 [pool-1-thread-9] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-14 10:42:40.458 [pool-1-thread-9] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 13 faktura, ukupno 71382.71 BAM

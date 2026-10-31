@@ -1,0 +1,6 @@
+net\unibl\etf\mdp\monitor\MonitorApp.class
+net\unibl\etf\mdp\monitor\udp\MulticastReceiver.class
+net\unibl\etf\mdp\monitor\ui\MonitorFrame$1.class
+net\unibl\etf\mdp\monitor\ui\MonitorFrame.class
+net\unibl\etf\mdp\monitor\model\Notification.class
+net\unibl\etf\mdp\monitor\ui\MonitorFrame$RedRenderer.class

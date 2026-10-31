@@ -1,0 +1,6 @@
+net\unibl\etf\mdp\restapi\http\Http.class
+net\unibl\etf\mdp\restapi\http\StatsHandler.class
+net\unibl\etf\mdp\restapi\RestApiApp.class
+net\unibl\etf\mdp\restapi\http\InvoiceHandler.class
+net\unibl\etf\mdp\restapi\http\ClientHandler.class
+net\unibl\etf\mdp\restapi\redis\RedisClient.class

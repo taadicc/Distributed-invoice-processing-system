@@ -1,0 +1,17 @@
+2026-09-11 15:04:29.427 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Pokretanje REST API servisa...
+2026-09-11 15:04:29.586 [main] INFO  net.unibl.etf.mdp.restapi.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 15:04:29.820 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - REST API servis slusa na http://localhost:8080
+2026-09-11 15:04:29.821 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp - Dostupni endpointi:
+2026-09-11 15:04:29.821 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices
+2026-09-11 15:04:29.821 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices/{{id}}
+2026-09-11 15:04:29.821 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/invoices?status=approved
+2026-09-11 15:04:29.821 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/clients/{{jib}}/summary
+2026-09-11 15:04:29.822 [main] INFO  net.unibl.etf.mdp.restapi.RestApiApp -   GET http://localhost:8080/api/stats
+2026-09-11 15:05:21.655 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - GET /api/stats
+2026-09-11 15:05:22.113 [pool-1-thread-1] INFO  net.unibl.etf.mdp.restapi.http.StatsHandler - Statistika: 4 faktura, ukupno 4850.44 BAM
+2026-09-11 15:05:41.863 [pool-1-thread-3] INFO  net.unibl.etf.mdp.restapi.http.InvoiceHandler - GET /api/invoices
+2026-09-11 15:05:41.867 [pool-1-thread-3] INFO  net.unibl.etf.mdp.restapi.http.InvoiceHandler - Sve fakture: 4
+2026-09-11 15:07:12.233 [pool-1-thread-4] INFO  net.unibl.etf.mdp.restapi.http.InvoiceHandler - GET /api/invoices/INV-2025-223
+2026-09-11 15:07:26.073 [pool-1-thread-5] INFO  net.unibl.etf.mdp.restapi.http.ClientHandler - GET /api/clients/1234567891012/summary
+2026-09-11 15:07:39.112 [pool-1-thread-6] INFO  net.unibl.etf.mdp.restapi.http.InvoiceHandler - GET /api/invoices/NEPOSTOJI
+2026-09-11 15:07:39.115 [pool-1-thread-6] WARN  net.unibl.etf.mdp.restapi.http.InvoiceHandler - Faktura NEPOSTOJI nije pronadjena

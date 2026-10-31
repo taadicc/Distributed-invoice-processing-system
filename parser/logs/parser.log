@@ -1,0 +1,67 @@
+2026-09-08 22:35:16.270 [main] INFO  net.unibl.etf.mdp.parser.ParserApp - Pokretanje Parser servisa...
+2026-09-08 22:35:16.290 [main] INFO  net.unibl.etf.mdp.parser.net.TcpServer - Parser TCP server slusa na portu 9000
+2026-09-08 22:46:02.331 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:55356
+2026-09-08 22:46:02.396 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 22:46:02.431 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 22:46:02.435 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-002.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 22:46:02.437 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-002.xml
+2026-09-08 22:46:02.441 [pool-1-thread-1] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Klijent /127.0.0.1:55356 je zatvorio konekciju
+2026-09-08 23:06:32.042 [pool-1-thread-2] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:54299
+2026-09-08 23:06:32.091 [pool-1-thread-2] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:06:32.093 [pool-1-thread-2] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:15:44.469 [pool-1-thread-3] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:56813
+2026-09-08 23:15:44.472 [pool-1-thread-3] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.472 [pool-1-thread-3] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:15:44.518 [pool-1-thread-4] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:56814
+2026-09-08 23:15:44.525 [pool-1-thread-5] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:56816
+2026-09-08 23:15:44.525 [pool-1-thread-6] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:56815
+2026-09-08 23:15:44.585 [pool-1-thread-4] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.587 [pool-1-thread-4] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:15:44.593 [pool-1-thread-6] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.594 [pool-1-thread-6] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:15:44.596 [pool-1-thread-5] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.596 [pool-1-thread-5] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:16:03.943 [pool-1-thread-7] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:59131
+2026-09-08 23:16:03.944 [pool-1-thread-8] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:59130
+2026-09-08 23:16:03.945 [pool-1-thread-8] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.951 [pool-1-thread-7] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.952 [pool-1-thread-7] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:16:03.954 [pool-1-thread-9] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:59132
+2026-09-08 23:16:03.959 [pool-1-thread-8] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:16:03.960 [pool-1-thread-10] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Nova konekcija sa /127.0.0.1:59133
+2026-09-08 23:16:03.975 [pool-1-thread-9] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.978 [pool-1-thread-9] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:16:03.984 [pool-1-thread-10] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Primljen fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.986 [pool-1-thread-10] INFO  net.unibl.etf.mdp.parser.net.ClientHandler - Poslan ACK za fajl faktura-001.xml
+2026-09-08 23:24:32.165 [pool-1-thread-10] ERROR net.unibl.etf.mdp.parser.net.ClientHandler - Greska u komunikaciji sa /127.0.0.1:59133
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at net.unibl.etf.mdp.parser.net.ClientHandler.obradiPoruku(ClientHandler.java:50)
+	at net.unibl.etf.mdp.parser.net.ClientHandler.run(ClientHandler.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:24:32.165 [pool-1-thread-4] ERROR net.unibl.etf.mdp.parser.net.ClientHandler - Greska u komunikaciji sa /127.0.0.1:56814
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1116)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1103)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at net.unibl.etf.mdp.parser.net.ClientHandler.obradiPoruku(ClientHandler.java:50)
+	at net.unibl.etf.mdp.parser.net.ClientHandler.run(ClientHandler.java:35)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)

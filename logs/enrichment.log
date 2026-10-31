@@ -1,0 +1,145 @@
+2026-09-11 11:34:31.148 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 11:34:31.294 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za EUR pronadjen u cache-u: 0.511292
+2026-09-11 11:34:31.334 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za EUR pronadjen u cache-u: 0.511292
+2026-09-11 11:34:31.343 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za USD pronadjen u cache-u: 0.593988
+2026-09-11 11:38:29.103 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 11:38:29.254 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za EUR nije u cache-u, pozivam REST API
+2026-09-11 11:38:29.617 [main] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Pozivam REST API: https://open.er-api.com/v6/latest/BAM
+2026-09-11 11:38:33.986 [main] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Dohvaceno 166 kurseva sa REST API-ja
+2026-09-11 11:38:34.086 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Upisano 166 kurseva u cache (TTL 3600 s)
+2026-09-11 11:38:34.091 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za EUR pronadjen u cache-u: 0.511292
+2026-09-11 11:38:34.094 [main] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za USD pronadjen u cache-u: 0.593988
+2026-09-11 16:35:11.513 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Pokretanje Enrichment servisa...
+2026-09-11 16:35:11.777 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 16:35:11.916 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis odgovorio: PONG
+2026-09-11 16:35:12.515 [main] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Pretplacen na topic invoices.validated (clientID=enrichment-service, pretplata=enrichment-validated)
+2026-09-11 16:35:12.543 [main] INFO  net.unibl.etf.mdp.enrichment.mq.RetryListener - Retry listener pretplacen na topic invoices.retry (odgoda 5 s, max pokusaja 3)
+2026-09-11 16:35:12.544 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Enrichment servis je spreman (validated + retry listener).
+2026-09-11 16:38:27.915 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0002 (15.00 CHF)
+2026-09-11 16:38:27.932 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF nije u cache-u, pozivam REST API
+2026-09-11 16:38:28.780 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Pozivam REST API: https://open.er-api.com/v6/latest/BAM
+2026-09-11 16:38:30.579 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Dohvaceno 166 kurseva sa REST API-ja
+2026-09-11 16:38:31.021 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Upisano 166 kurseva u cache (TTL 3600 s)
+2026-09-11 16:38:31.055 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0002: 15.00 CHF -> 31.08 BAM (kurs 0.48256, izvor API)
+2026-09-11 16:38:31.059 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 16:38:31.187 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0002 poslana na topic invoices.enriched
+2026-09-11 16:38:31.222 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0004 (6250.54 CHF)
+2026-09-11 16:38:31.232 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.48256
+2026-09-11 16:38:31.234 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0004: 6250.54 CHF -> 12952.88 BAM (kurs 0.48256, izvor CACHE)
+2026-09-11 16:38:31.294 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0004 poslana na topic invoices.enriched
+2026-09-11 16:38:31.308 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0001 (4715.73 BAM)
+2026-09-11 16:38:31.317 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-11 16:38:31.317 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0001: 4715.73 BAM -> 4715.73 BAM (kurs 1, izvor CACHE)
+2026-09-11 16:38:31.380 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0001 poslana na topic invoices.enriched
+2026-09-11 16:38:31.396 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0007 (5517.26 GBP)
+2026-09-11 16:38:31.413 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za GBP pronadjen u cache-u: 0.439348
+2026-09-11 16:38:31.413 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0007: 5517.26 GBP -> 12557.84 BAM (kurs 0.439348, izvor CACHE)
+2026-09-11 16:38:31.460 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0007 poslana na topic invoices.enriched
+2026-09-11 16:38:31.476 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0008 (11873.96 CHF)
+2026-09-11 16:38:31.489 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.48256
+2026-09-11 16:38:31.489 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0008: 11873.96 CHF -> 24606.18 BAM (kurs 0.48256, izvor CACHE)
+2026-09-11 16:38:31.583 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0008 poslana na topic invoices.enriched
+2026-09-14 10:32:22.014 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Pokretanje Enrichment servisa...
+2026-09-14 10:32:22.318 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:32:22.473 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis odgovorio: PONG
+2026-09-14 10:32:22.827 [main] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Pretplacen na topic invoices.validated (clientID=enrichment-service, pretplata=enrichment-validated)
+2026-09-14 10:32:22.854 [main] INFO  net.unibl.etf.mdp.enrichment.mq.RetryListener - Retry listener pretplacen na topic invoices.retry (odgoda 5 s, max pokusaja 3)
+2026-09-14 10:32:22.855 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Enrichment servis je spreman (validated + retry listener).
+2026-09-14 10:34:04.263 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0001 (4715.73 BAM)
+2026-09-14 10:34:04.273 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM nije u cache-u, pozivam REST API
+2026-09-14 10:34:04.884 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Pozivam REST API: https://open.er-api.com/v6/latest/BAM
+2026-09-14 10:34:05.799 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Dohvaceno 166 kurseva sa REST API-ja
+2026-09-14 10:34:06.075 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Upisano 166 kurseva u cache (TTL 3600 s)
+2026-09-14 10:34:06.078 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0001: 4715.73 BAM -> 4715.73 BAM (kurs 1, izvor API)
+2026-09-14 10:34:06.081 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-14 10:34:06.186 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0001 poslana na topic invoices.enriched
+2026-09-14 10:34:06.217 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0002 (15.00 CHF)
+2026-09-14 10:34:06.224 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:34:06.224 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0002: 15.00 CHF -> 30.99 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:34:06.260 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0002 poslana na topic invoices.enriched
+2026-09-14 10:34:06.274 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0004 (6250.54 CHF)
+2026-09-14 10:34:06.278 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:34:06.278 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0004: 6250.54 CHF -> 12913.03 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:34:06.311 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0004 poslana na topic invoices.enriched
+2026-09-14 10:34:06.326 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0007 (5517.26 GBP)
+2026-09-14 10:34:06.331 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za GBP pronadjen u cache-u: 0.438476
+2026-09-14 10:34:06.332 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0007: 5517.26 GBP -> 12582.81 BAM (kurs 0.438476, izvor CACHE)
+2026-09-14 10:34:06.363 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0007 poslana na topic invoices.enriched
+2026-09-14 10:34:06.373 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0008 (11873.96 CHF)
+2026-09-14 10:34:06.377 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:34:06.378 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0008: 11873.96 CHF -> 24530.49 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:34:06.404 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0008 poslana na topic invoices.enriched
+2026-09-14 10:34:06.412 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0011 (1026.94 USD)
+2026-09-14 10:34:06.416 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za USD pronadjen u cache-u: 0.592923
+2026-09-14 10:34:06.416 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0011: 1026.94 USD -> 1732.00 BAM (kurs 0.592923, izvor CACHE)
+2026-09-14 10:34:06.442 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0011 poslana na topic invoices.enriched
+2026-09-14 10:34:06.451 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0012 (6737.72 BAM)
+2026-09-14 10:34:06.454 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:34:06.454 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0012: 6737.72 BAM -> 6737.72 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:34:06.476 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0012 poslana na topic invoices.enriched
+2026-09-14 10:34:06.485 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0010 (21.00 BAM)
+2026-09-14 10:34:06.488 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:34:06.489 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0010: 21.00 BAM -> 21.00 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:34:06.513 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0010 poslana na topic invoices.enriched
+2026-09-14 10:34:06.524 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0009 (34.00 BAM)
+2026-09-14 10:34:06.526 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:34:06.527 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0009: 34.00 BAM -> 34.00 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:34:06.553 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0009 poslana na topic invoices.enriched
+2026-09-14 10:34:06.562 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0013 (2968.89 CHF)
+2026-09-14 10:34:06.566 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:34:06.566 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0013: 2968.89 CHF -> 6133.45 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:34:06.609 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0013 poslana na topic invoices.enriched
+2026-09-14 10:38:59.532 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Pokretanje Enrichment servisa...
+2026-09-14 10:38:59.750 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:38:59.866 [main] INFO  net.unibl.etf.mdp.enrichment.redis.RedisClient - Redis odgovorio: PONG
+2026-09-14 10:39:00.198 [main] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Pretplacen na topic invoices.validated (clientID=enrichment-service, pretplata=enrichment-validated)
+2026-09-14 10:39:00.216 [main] INFO  net.unibl.etf.mdp.enrichment.mq.RetryListener - Retry listener pretplacen na topic invoices.retry (odgoda 5 s, max pokusaja 3)
+2026-09-14 10:39:00.217 [main] INFO  net.unibl.etf.mdp.enrichment.EnrichmentApp - Enrichment servis je spreman (validated + retry listener).
+2026-09-14 10:39:38.072 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0010 (21.00 BAM)
+2026-09-14 10:39:38.084 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM nije u cache-u, pozivam REST API
+2026-09-14 10:39:38.897 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Pozivam REST API: https://open.er-api.com/v6/latest/BAM
+2026-09-14 10:39:39.866 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.rest.ExchangeRateApi - Dohvaceno 166 kurseva sa REST API-ja
+2026-09-14 10:39:40.170 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Upisano 166 kurseva u cache (TTL 3600 s)
+2026-09-14 10:39:40.171 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0010: 21.00 BAM -> 21.00 BAM (kurs 1, izvor API)
+2026-09-14 10:39:40.172 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-14 10:39:40.282 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0010 poslana na topic invoices.enriched
+2026-09-14 10:39:40.309 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0011 (1026.94 USD)
+2026-09-14 10:39:40.316 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za USD pronadjen u cache-u: 0.592923
+2026-09-14 10:39:40.317 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0011: 1026.94 USD -> 1732.00 BAM (kurs 0.592923, izvor CACHE)
+2026-09-14 10:39:40.363 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0011 poslana na topic invoices.enriched
+2026-09-14 10:39:40.380 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0013 (2968.89 CHF)
+2026-09-14 10:39:40.387 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:39:40.389 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0013: 2968.89 CHF -> 6133.45 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:39:40.434 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0013 poslana na topic invoices.enriched
+2026-09-14 10:39:40.451 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0012 (6737.72 BAM)
+2026-09-14 10:39:40.459 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:39:40.461 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0012: 6737.72 BAM -> 6737.72 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:39:40.508 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0012 poslana na topic invoices.enriched
+2026-09-14 10:39:40.516 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0016 (11131.61 BAM)
+2026-09-14 10:39:40.520 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:39:40.521 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0016: 11131.61 BAM -> 11131.61 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:39:40.544 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0016 poslana na topic invoices.enriched
+2026-09-14 10:39:40.556 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0017 (5557.98 GBP)
+2026-09-14 10:39:40.560 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za GBP pronadjen u cache-u: 0.438476
+2026-09-14 10:39:40.561 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0017: 5557.98 GBP -> 12675.68 BAM (kurs 0.438476, izvor CACHE)
+2026-09-14 10:39:40.586 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0017 poslana na topic invoices.enriched
+2026-09-14 10:39:40.594 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0015 (2964.28 CHF)
+2026-09-14 10:39:40.598 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:39:40.599 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0015: 2964.28 CHF -> 6123.93 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:39:40.621 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0015 poslana na topic invoices.enriched
+2026-09-14 10:39:40.630 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0018 (5162.40 GBP)
+2026-09-14 10:39:40.633 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za GBP pronadjen u cache-u: 0.438476
+2026-09-14 10:39:40.634 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0018: 5162.40 GBP -> 11773.51 BAM (kurs 0.438476, izvor CACHE)
+2026-09-14 10:39:40.655 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0018 poslana na topic invoices.enriched
+2026-09-14 10:39:40.665 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0020 (6789.78 CHF)
+2026-09-14 10:39:40.669 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za CHF pronadjen u cache-u: 0.484049
+2026-09-14 10:39:40.669 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0020: 6789.78 CHF -> 14027.05 BAM (kurs 0.484049, izvor CACHE)
+2026-09-14 10:39:40.697 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0020 poslana na topic invoices.enriched
+2026-09-14 10:39:40.707 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0021 (21.00 GBP)
+2026-09-14 10:39:40.711 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za GBP pronadjen u cache-u: 0.438476
+2026-09-14 10:39:40.711 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0021: 21.00 GBP -> 47.89 BAM (kurs 0.438476, izvor CACHE)
+2026-09-14 10:39:40.732 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0021 poslana na topic invoices.enriched
+2026-09-14 10:39:40.740 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.ValidatedListener - Primljena faktura INV-2026-0022 (978.87 BAM)
+2026-09-14 10:39:40.744 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.cache.RateCache - Kurs za BAM pronadjen u cache-u: 1
+2026-09-14 10:39:40.744 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.service.EnrichmentService - Faktura INV-2026-0022: 978.87 BAM -> 978.87 BAM (kurs 1, izvor CACHE)
+2026-09-14 10:39:40.764 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.enrichment.mq.InvoicePublisher - Faktura INV-2026-0022 poslana na topic invoices.enriched

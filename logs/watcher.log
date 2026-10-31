@@ -1,0 +1,741 @@
+2026-09-08 23:06:31.765 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:06:31.771 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-08 23:06:31.773 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-08 23:06:31.773 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:06:31.779 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:31.779 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:31.779 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:31.779 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:31.780 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:06:31.785 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:06:31.789 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:06:31.789 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 1 fajlova
+2026-09-08 23:06:31.796 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-08 23:06:32.042 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:06:32.092 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:06:32.094 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:06:32.097 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed
+2026-09-08 23:06:51.942 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:06:51.947 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-08 23:06:51.949 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-08 23:06:51.949 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:06:51.956 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:51.956 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:51.956 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:51.956 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:06:51.957 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:06:51.961 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:06:51.963 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-08 23:06:51.969 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-08 23:08:00.636 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:08:00.642 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-08 23:08:00.644 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-08 23:08:00.644 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:08:00.649 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:08:00.649 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:08:00.649 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:08:00.649 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:08:00.650 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:08:00.653 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:08:00.656 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-08 23:08:00.664 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-08 23:10:17.784 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:10:17.789 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-08 23:10:17.792 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-08 23:10:17.792 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:10:17.800 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:10:17.800 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:10:17.801 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:10:17.800 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:10:17.804 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:10:17.807 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:10:17.812 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-08 23:10:17.820 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-08 23:15:44.260 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:15:44.260 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:15:44.260 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:15:44.261 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:15:44.468 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:15:44.472 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.473 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:15:44.486 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed
+2026-09-08 23:15:44.519 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:15:44.526 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:15:44.526 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:15:44.585 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.588 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:15:44.594 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.596 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:15:44.598 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:15:44.600 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:15:44.608 [pool-1-thread-2] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902144591_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:15:44.621 [pool-1-thread-1] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902144604_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:15:44.613 [pool-1-thread-2] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902144600_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:16:03.711 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:16:03.712 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:16:03.712 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:16:03.712 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:16:03.936 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:16:03.937 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:16:03.948 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.941 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:16:03.959 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:16:03.960 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.955 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:16:03.963 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed
+2026-09-08 23:16:03.964 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:16:03.970 [pool-1-thread-3] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902163969_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:16:03.981 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.983 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:16:03.988 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:16:03.993 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:16:03.995 [pool-1-thread-3] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902163994_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:16:03.988 [pool-1-thread-2] ERROR net.unibl.etf.mdp.watcher.send.FileSender - Greska pri obradi fajla faktura-001.xml
+java.nio.file.NoSuchFileException: .\data\invoices\inbox\faktura-001.xml -> .\data\invoices\processed\1788902163987_faktura-001.xml
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1437)
+	at net.unibl.etf.mdp.watcher.send.FileSender.premjesti(FileSender.java:143)
+	at net.unibl.etf.mdp.watcher.send.FileSender.obradi(FileSender.java:82)
+	at net.unibl.etf.mdp.watcher.send.FileSender.run(FileSender.java:50)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-09-08 23:26:01.084 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:26:01.089 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-08 23:26:01.091 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-08 23:26:01.092 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:26:01.098 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:26:01.098 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:26:01.098 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:26:01.098 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:26:01.099 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:26:01.103 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:26:01.105 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-08 23:26:01.113 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-08 23:26:36.585 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:26:36.849 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:26:36.985 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:26:37.045 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:26:37.061 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788902797048_faktura-001.xml
+2026-09-08 23:26:39.815 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:26:40.028 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:26:40.032 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:26:40.035 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:26:40.038 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788902800036_faktura-001.xml
+2026-09-08 23:26:42.745 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-08 23:26:42.953 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-08 23:26:42.962 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-08 23:26:42.963 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-08 23:26:42.969 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788902802965_faktura-001.xml
+2026-09-09 00:06:00.676 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-09 00:06:00.681 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-09 00:06:00.684 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-09 00:06:00.684 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-09 00:06:00.691 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:06:00.691 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:06:00.691 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:06:00.691 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:06:00.692 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-09 00:06:00.697 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-09 00:06:00.700 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-09 00:06:00.707 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-09 00:06:46.689 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:06:47.024 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:06:47.147 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-09 00:06:47.206 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:06:47.221 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788905207208_faktura-001.xml
+2026-09-09 00:07:02.344 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:07:02.553 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:07:02.559 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-09 00:07:02.571 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:07:02.575 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788905222572_faktura-001.xml
+2026-09-09 00:11:47.648 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-09 00:11:47.653 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-09 00:11:47.656 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-09 00:11:47.656 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-09 00:11:47.660 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:11:47.660 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:11:47.660 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:11:47.660 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:11:47.662 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-09 00:11:47.667 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-09 00:11:47.669 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-09 00:11:47.676 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-09 00:14:19.868 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:14:20.139 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:14:20.271 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash b9d502c93896e45ebbec4dd5f7370452307078f4bdacbaa62b721ab6a42324c4
+2026-09-09 00:14:20.331 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:14:20.346 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788905660333_faktura-001.xml
+2026-09-09 00:21:09.223 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-09 00:21:09.230 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-09 00:21:09.232 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-09 00:21:09.233 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-09 00:21:09.240 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:21:09.240 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:21:09.240 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:21:09.240 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 00:21:09.242 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-09 00:21:09.247 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-09 00:21:09.249 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-09 00:21:09.256 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-09 00:22:06.236 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:22:06.503 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:22:06.578 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-09 00:22:06.646 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:22:06.660 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788906126649_faktura-001.xml
+2026-09-09 00:22:23.716 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:22:23.931 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:22:23.937 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-09 00:22:23.940 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:22:23.943 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788906143940_faktura-001.xml
+2026-09-09 00:32:56.297 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 00:32:56.512 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 00:32:56.516 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-09 00:32:56.594 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 00:32:56.597 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1788906776596_faktura-001.xml
+2026-09-09 11:26:57.432 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-09 11:26:57.438 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-09 11:26:57.440 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-09 11:26:57.440 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-09 11:26:57.445 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 11:26:57.446 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 11:26:57.445 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 11:26:57.446 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-09 11:26:57.448 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-09 11:26:57.456 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-09 11:26:57.460 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-09 11:26:57.469 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-09 11:32:14.376 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 11:32:14.640 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 11:32:14.713 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-09 11:32:14.783 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-09 11:32:14.789 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao faktura-001.xml
+2026-09-09 11:38:03.245 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-09 11:38:05.313 [pool-1-thread-3] WARN  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml se nije stabilizovao, preskacem
+2026-09-09 11:40:30.711 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-002.xml
+2026-09-09 11:40:30.922 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-09 11:40:30.927 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-002.xml (615 bajtova), hash 1900cdd4332046e6a1921b22a5516a054da0c95866217a6147338d5402efa04b
+2026-09-09 11:40:30.929 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-002.xml
+2026-09-09 11:40:30.934 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-002.xml premjesten u processed kao faktura-002.xml
+2026-09-11 11:04:56.645 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 11:04:56.651 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 11:04:56.657 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 11:04:56.658 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 11:04:56.665 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:04:56.665 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:04:56.666 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:04:56.665 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:04:56.668 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 11:04:56.672 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 11:04:56.674 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 11:04:56.683 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 11:07:58.582 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-11 11:07:58.849 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 11:07:58.919 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-11 11:07:59.015 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-11 11:07:59.029 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1789117679018_faktura-001.xml
+2026-09-11 11:45:54.071 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 11:45:54.078 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 11:45:54.080 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 11:45:54.080 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 11:45:54.085 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:45:54.085 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:45:54.085 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:45:54.085 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 11:45:54.086 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 11:45:54.090 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 11:45:54.093 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 11:45:54.100 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 11:46:31.086 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-11 11:46:31.358 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 11:46:31.462 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-11 11:46:31.504 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-11 11:46:31.522 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1789119991508_faktura-001.xml
+2026-09-11 12:07:04.920 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 12:07:04.928 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 12:07:04.931 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 12:07:04.931 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 12:07:04.936 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:07:04.936 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:07:04.936 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:07:04.936 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:07:04.937 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 12:07:04.942 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 12:07:04.945 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 12:07:04.953 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 12:08:05.271 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-11 12:08:05.559 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 12:08:05.646 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-11 12:08:05.708 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-11 12:08:05.724 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1789121285711_faktura-001.xml
+2026-09-11 12:23:54.789 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 12:23:54.796 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 12:23:54.798 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 12:23:54.798 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 12:23:54.803 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:23:54.804 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:23:54.803 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:23:54.803 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 12:23:54.805 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 12:23:54.809 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 12:23:54.813 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 12:23:54.821 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 12:24:39.769 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-001.xml
+2026-09-11 12:24:40.036 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 12:24:40.103 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-001.xml (631 bajtova), hash 1d07c06f64e38e139947efff10f5eee189816da47b11ec93c0409ba8aeb35d1f
+2026-09-11 12:24:40.176 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-001.xml
+2026-09-11 12:24:40.211 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-001.xml premjesten u processed kao 1789122280181_faktura-001.xml
+2026-09-11 12:27:09.872 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-mala..xml
+2026-09-11 12:27:10.082 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 12:27:10.085 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-mala..xml (467 bajtova), hash 16c8de38a00b5daf644cf01d79cbb7bc44ac13ce2fc8f581bf78cebf39e771da
+2026-09-11 12:27:10.089 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-mala..xml
+2026-09-11 12:27:10.092 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-mala..xml premjesten u processed kao faktura-mala..xml
+2026-09-11 13:04:12.100 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 13:04:12.108 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 13:04:12.110 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 13:04:12.110 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 13:04:12.117 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:04:12.117 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:04:12.117 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:04:12.117 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:04:12.121 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 13:04:12.128 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 13:04:12.141 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 13:04:12.155 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 13:09:10.917 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-003.xml
+2026-09-11 13:09:11.228 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:09:11.334 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-003.xml (631 bajtova), hash bec7c2bf7f24683891c125f50a6c5e65b85cbbb9cddbdb79ca8422c158cfaaa6
+2026-09-11 13:09:11.398 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-003.xml
+2026-09-11 13:09:11.404 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-003.xml premjesten u processed kao faktura-003.xml
+2026-09-11 13:18:11.339 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-003.xml
+2026-09-11 13:18:11.553 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:18:11.563 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-003.xml (631 bajtova), hash bec7c2bf7f24683891c125f50a6c5e65b85cbbb9cddbdb79ca8422c158cfaaa6
+2026-09-11 13:18:11.569 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-003.xml
+2026-09-11 13:18:11.590 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-003.xml premjesten u processed kao 1789125491571_faktura-003.xml
+2026-09-11 13:18:47.109 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 13:18:47.114 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 13:18:47.118 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 13:18:47.118 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 13:18:47.127 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:18:47.127 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:18:47.127 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:18:47.128 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:18:47.129 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 13:18:47.133 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 13:18:47.136 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 13:18:47.143 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 13:19:35.285 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-003.xml
+2026-09-11 13:19:35.573 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:19:35.676 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-003.xml (631 bajtova), hash c2045c491ce15e579ec419511020396e83bfd267e01b757d1d029fb82e11caad
+2026-09-11 13:19:35.689 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-003.xml
+2026-09-11 13:19:35.715 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-003.xml premjesten u processed kao 1789125575692_faktura-003.xml
+2026-09-11 13:23:33.671 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 13:23:33.677 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 13:23:33.679 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 13:23:33.679 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 13:23:33.685 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:23:33.685 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:23:33.685 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:23:33.685 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:23:33.688 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 13:23:33.691 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 13:23:33.692 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 13:23:33.699 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 13:24:24.626 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-003.xml
+2026-09-11 13:24:24.918 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:24:25.020 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-003.xml (631 bajtova), hash 5bf9baa0da4d4846c832ca0259a7de30605a4a80934c5ecff4ce6fef02ba53c5
+2026-09-11 13:24:25.029 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-003.xml
+2026-09-11 13:24:25.080 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-003.xml premjesten u processed kao 1789125865040_faktura-003.xml
+2026-09-11 13:25:20.100 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-433.xml
+2026-09-11 13:25:20.309 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:25:20.316 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-433.xml (631 bajtova), hash a0c2567627990d41e76fb28ab4a13cc41e1c89024d2b3c235f69f731d43d489c
+2026-09-11 13:25:20.316 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-433.xml
+2026-09-11 13:25:20.326 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-433.xml premjesten u processed kao faktura-433.xml
+2026-09-11 13:38:47.762 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 13:38:47.767 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 13:38:47.770 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 13:38:47.771 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 13:38:47.778 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:38:47.778 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:38:47.778 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:38:47.778 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:38:47.780 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 13:38:47.784 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 13:38:47.787 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 13:38:47.795 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 13:39:32.607 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-433.xml
+2026-09-11 13:39:32.901 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:39:33.018 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-433.xml (631 bajtova), hash a0c2567627990d41e76fb28ab4a13cc41e1c89024d2b3c235f69f731d43d489c
+2026-09-11 13:39:33.077 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-433.xml
+2026-09-11 13:39:33.091 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-433.xml premjesten u processed kao 1789126773080_faktura-433.xml
+2026-09-11 13:41:01.745 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-010.xml
+2026-09-11 13:41:01.963 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:41:01.986 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-010.xml (631 bajtova), hash a0c2567627990d41e76fb28ab4a13cc41e1c89024d2b3c235f69f731d43d489c
+2026-09-11 13:41:01.989 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-010.xml
+2026-09-11 13:41:01.993 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-010.xml premjesten u processed kao faktura-010.xml
+2026-09-11 13:42:30.510 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 13:42:30.516 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 13:42:30.519 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 13:42:30.520 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 13:42:30.525 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:42:30.526 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:42:30.526 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:42:30.525 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 13:42:30.527 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 13:42:30.531 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 13:42:30.533 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 13:42:30.540 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 13:42:51.768 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-010.xml
+2026-09-11 13:42:52.132 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:42:52.255 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-010.xml (631 bajtova), hash a0c2567627990d41e76fb28ab4a13cc41e1c89024d2b3c235f69f731d43d489c
+2026-09-11 13:42:52.258 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-010.xml
+2026-09-11 13:42:52.280 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-010.xml premjesten u processed kao 1789126972261_faktura-010.xml
+2026-09-11 13:43:48.454 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-010.xml
+2026-09-11 13:43:48.684 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 13:43:48.698 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-010.xml (631 bajtova), hash 75df11e50aaafe23dad8ebb45d473c9e8a9652b919736dbbe6c7eb5d8f1a1a86
+2026-09-11 13:43:48.719 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-010.xml
+2026-09-11 13:43:48.721 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-010.xml premjesten u processed kao 1789127028720_faktura-010.xml
+2026-09-11 14:10:15.826 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 14:10:15.830 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 14:10:15.832 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 14:10:15.832 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 14:10:15.836 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:10:15.836 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:10:15.837 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:10:15.837 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:10:15.838 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 14:10:15.841 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 14:10:15.842 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 14:10:15.848 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 14:10:43.288 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-020.xml
+2026-09-11 14:10:43.535 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 14:10:43.593 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-020.xml (631 bajtova), hash 03c2cc7c4bd135bc768932eb202c41900d5a7fe50fdf1552c9fec22d0581c297
+2026-09-11 14:10:43.648 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-020.xml
+2026-09-11 14:10:43.655 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-020.xml premjesten u processed kao faktura-020.xml
+2026-09-11 14:35:09.465 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 14:35:09.470 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 14:35:09.471 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 14:35:09.472 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 14:35:09.475 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:35:09.475 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:35:09.475 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:35:09.476 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 14:35:09.476 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 14:35:09.479 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 14:35:09.481 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 14:35:09.486 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 14:36:34.677 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-111.xml
+2026-09-11 14:36:34.926 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 14:36:34.969 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-111.xml (631 bajtova), hash bbaa0e024caaf60971c55580b74c26c61c5c17e73470600806be4ab99cd9366f
+2026-09-11 14:36:35.007 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-111.xml
+2026-09-11 14:36:35.011 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-111.xml premjesten u processed kao faktura-111.xml
+2026-09-11 14:42:59.452 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-223.xml
+2026-09-11 14:42:59.669 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 14:42:59.679 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-223.xml (631 bajtova), hash 2caa976cf85944eae5f392ee654186c568a7aee06611066141934d5485ca9cef
+2026-09-11 14:42:59.681 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-223.xml
+2026-09-11 14:42:59.686 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-223.xml premjesten u processed kao faktura-223.xml
+2026-09-11 16:27:51.085 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0001.xml
+2026-09-11 16:27:51.094 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0002.xml
+2026-09-11 16:27:51.094 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0003.xml
+2026-09-11 16:27:51.323 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:27:51.327 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:27:51.329 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0001.xml (986 bajtova), hash b268d8fb0925b876b91c0f36b50cef960b67ccf488f322a6785966cefedae77e
+2026-09-11 16:27:51.329 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0002.xml (468 bajtova), hash 46fff7aaaaae875666bf8267c350f92c22f5b3c013552c647e0d2844630a384f
+2026-09-11 16:27:51.333 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0003.xml (637 bajtova), hash a16e1851928525c651402eded6a7674e9d008c1024cf6987a98f20f36763bdb9
+2026-09-11 16:27:51.343 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0003.xml
+2026-09-11 16:27:51.348 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0001.xml
+2026-09-11 16:27:51.351 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0003.xml premjesten u processed kao faktura-0003.xml
+2026-09-11 16:27:51.351 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0001.xml premjesten u processed kao faktura-0001.xml
+2026-09-11 16:27:51.357 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0002.xml
+2026-09-11 16:27:51.359 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0002.xml premjesten u processed kao faktura-0002.xml
+2026-09-11 16:28:14.091 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0001.xml
+2026-09-11 16:28:14.096 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0002.xml
+2026-09-11 16:28:14.102 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0003.xml
+2026-09-11 16:28:14.302 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0001.xml (986 bajtova), hash b268d8fb0925b876b91c0f36b50cef960b67ccf488f322a6785966cefedae77e
+2026-09-11 16:28:14.303 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0001.xml
+2026-09-11 16:28:14.304 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0002.xml (468 bajtova), hash 46fff7aaaaae875666bf8267c350f92c22f5b3c013552c647e0d2844630a384f
+2026-09-11 16:28:14.318 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0003.xml (637 bajtova), hash a16e1851928525c651402eded6a7674e9d008c1024cf6987a98f20f36763bdb9
+2026-09-11 16:28:14.366 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0001.xml premjesten u processed kao 1789136894307_faktura-0001.xml
+2026-09-11 16:28:33.616 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0003.xml
+2026-09-11 16:28:33.617 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0002.xml
+2026-09-11 16:28:33.621 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0002.xml premjesten u processed kao 1789136913618_faktura-0002.xml
+2026-09-11 16:28:33.621 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0003.xml premjesten u processed kao 1789136913618_faktura-0003.xml
+2026-09-11 16:29:46.724 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0046.xml
+2026-09-11 16:29:46.733 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0047.xml
+2026-09-11 16:29:46.740 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0048.xml
+2026-09-11 16:29:46.756 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0049.xml
+2026-09-11 16:29:46.767 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0050.xml
+2026-09-11 16:29:46.931 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0046.xml (802 bajtova), hash 70c4c20bc95f4d22c6c865f05546fb98660ea5cc3980d46d3abe4758988c01a0
+2026-09-11 16:29:46.933 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0046.xml
+2026-09-11 16:29:46.934 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0046.xml premjesten u processed kao faktura-0046.xml
+2026-09-11 16:29:46.962 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0048.xml (801 bajtova), hash 3e88e7b2011591d3cf99910f1487fabceeb25dd51c952c6466d336fefd48e4b6
+2026-09-11 16:29:46.963 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0047.xml (962 bajtova), hash 6f5ccb2b525ec53a3c198182256a9e2990fdff9ab6e907dbfb85914fc14fcd42
+2026-09-11 16:29:46.963 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0048.xml
+2026-09-11 16:29:46.963 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0047.xml
+2026-09-11 16:29:46.969 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0048.xml premjesten u processed kao faktura-0048.xml
+2026-09-11 16:29:46.968 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0047.xml premjesten u processed kao faktura-0047.xml
+2026-09-11 16:29:46.980 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0049.xml (633 bajtova), hash 65035b7b610213dd35491c646b1a73560b02c8acf40ef3066506f0abfe2c7f1f
+2026-09-11 16:29:46.980 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0049.xml
+2026-09-11 16:29:46.982 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0049.xml premjesten u processed kao faktura-0049.xml
+2026-09-11 16:29:47.159 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0050.xml (632 bajtova), hash 50d3ff8e89335563772da8c0dc4e886a0937c1126c24395cabb83050a008c14a
+2026-09-11 16:30:29.054 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0050.xml
+2026-09-11 16:30:29.057 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0050.xml premjesten u processed kao faktura-0050.xml
+2026-09-11 16:36:51.349 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-11 16:36:51.354 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-11 16:36:51.356 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-11 16:36:51.356 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-11 16:36:51.393 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 16:36:51.393 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 16:36:51.394 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 16:36:51.393 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-11 16:36:51.398 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-11 16:36:51.408 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-11 16:36:51.411 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-11 16:36:51.422 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-11 16:38:24.304 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0001.xml
+2026-09-11 16:38:24.313 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0002.xml
+2026-09-11 16:38:24.325 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0003.xml
+2026-09-11 16:38:24.335 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0004.xml
+2026-09-11 16:38:24.344 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0005.xml
+2026-09-11 16:38:24.351 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0006.xml
+2026-09-11 16:38:24.359 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0007.xml
+2026-09-11 16:38:24.366 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0008.xml
+2026-09-11 16:38:24.595 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:38:24.595 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:38:24.595 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:38:24.595 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-11 16:38:24.665 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0004.xml (812 bajtova), hash bd6c1acc9af171e855d5f5b4fadb501cbf7d7c74f2cdb6e24e347e57bb5d9457
+2026-09-11 16:38:24.664 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0003.xml (637 bajtova), hash a16e1851928525c651402eded6a7674e9d008c1024cf6987a98f20f36763bdb9
+2026-09-11 16:38:24.666 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0001.xml (986 bajtova), hash b268d8fb0925b876b91c0f36b50cef960b67ccf488f322a6785966cefedae77e
+2026-09-11 16:38:24.669 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0002.xml (468 bajtova), hash 46fff7aaaaae875666bf8267c350f92c22f5b3c013552c647e0d2844630a384f
+2026-09-11 16:38:24.739 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0002.xml
+2026-09-11 16:38:24.739 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0003.xml
+2026-09-11 16:38:24.739 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0001.xml
+2026-09-11 16:38:24.739 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0004.xml
+2026-09-11 16:38:24.759 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0003.xml premjesten u processed kao faktura-0003.xml
+2026-09-11 16:38:24.759 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0001.xml premjesten u processed kao faktura-0001.xml
+2026-09-11 16:38:24.775 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0002.xml premjesten u processed kao faktura-0002.xml
+2026-09-11 16:38:24.775 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0004.xml premjesten u processed kao faktura-0004.xml
+2026-09-11 16:38:24.967 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0006.xml (793 bajtova), hash 0758b184f90d7b8661d99edb2baa92719ab5e74aea112c62127d7beb2d9f843e
+2026-09-11 16:38:24.964 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0005.xml (478 bajtova), hash a75759ef37454f94acd5cb7fb637ab06434b0ae8384dd1217a51f591ac1765cb
+2026-09-11 16:38:24.983 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0008.xml (969 bajtova), hash 95c914ab9d15ed175bb6264dc8ddc9640755734b57373b2978e0d15e63b6bf30
+2026-09-11 16:38:24.997 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0007.xml (466 bajtova), hash 0103c494108425a4755ce9632600baaa62606cbc0e8ff84bdb1f86a7a897068b
+2026-09-11 16:38:26.741 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0005.xml
+2026-09-11 16:38:26.744 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0005.xml premjesten u processed kao faktura-0005.xml
+2026-09-11 16:38:26.764 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0007.xml
+2026-09-11 16:38:26.780 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0007.xml premjesten u processed kao faktura-0007.xml
+2026-09-11 16:38:26.783 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0006.xml
+2026-09-11 16:38:26.789 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0008.xml
+2026-09-11 16:38:26.792 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0008.xml premjesten u processed kao faktura-0008.xml
+2026-09-11 16:38:26.787 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0006.xml premjesten u processed kao faktura-0006.xml
+2026-09-14 10:32:39.429 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-14 10:32:39.468 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-14 10:32:39.471 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-14 10:32:39.471 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-14 10:32:39.478 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:32:39.478 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:32:39.478 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:32:39.478 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:32:39.480 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-14 10:32:39.483 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-14 10:32:39.487 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-14 10:32:39.495 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-14 10:34:01.796 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0001.xml
+2026-09-14 10:34:01.804 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0002.xml
+2026-09-14 10:34:01.809 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0003.xml
+2026-09-14 10:34:01.817 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0004.xml
+2026-09-14 10:34:01.825 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0005.xml
+2026-09-14 10:34:01.833 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0006.xml
+2026-09-14 10:34:01.840 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0007.xml
+2026-09-14 10:34:01.848 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0008.xml
+2026-09-14 10:34:01.855 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0009.xml
+2026-09-14 10:34:01.862 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0010.xml
+2026-09-14 10:34:01.867 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0011.xml
+2026-09-14 10:34:01.873 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0012.xml
+2026-09-14 10:34:01.880 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0013.xml
+2026-09-14 10:34:02.047 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:34:02.048 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:34:02.047 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:34:02.048 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:34:02.113 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0004.xml (812 bajtova), hash bd6c1acc9af171e855d5f5b4fadb501cbf7d7c74f2cdb6e24e347e57bb5d9457
+2026-09-14 10:34:02.114 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0001.xml (986 bajtova), hash b268d8fb0925b876b91c0f36b50cef960b67ccf488f322a6785966cefedae77e
+2026-09-14 10:34:02.113 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0002.xml (468 bajtova), hash 46fff7aaaaae875666bf8267c350f92c22f5b3c013552c647e0d2844630a384f
+2026-09-14 10:34:02.115 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0003.xml (637 bajtova), hash a16e1851928525c651402eded6a7674e9d008c1024cf6987a98f20f36763bdb9
+2026-09-14 10:34:02.174 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0002.xml
+2026-09-14 10:34:02.174 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0004.xml
+2026-09-14 10:34:02.174 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0001.xml
+2026-09-14 10:34:02.174 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0003.xml
+2026-09-14 10:34:02.205 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0001.xml premjesten u processed kao faktura-0001.xml
+2026-09-14 10:34:02.205 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0003.xml premjesten u processed kao faktura-0003.xml
+2026-09-14 10:34:02.205 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0002.xml premjesten u processed kao faktura-0002.xml
+2026-09-14 10:34:02.221 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0004.xml premjesten u processed kao faktura-0004.xml
+2026-09-14 10:34:02.410 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0007.xml (466 bajtova), hash 0103c494108425a4755ce9632600baaa62606cbc0e8ff84bdb1f86a7a897068b
+2026-09-14 10:34:02.410 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0005.xml (478 bajtova), hash a75759ef37454f94acd5cb7fb637ab06434b0ae8384dd1217a51f591ac1765cb
+2026-09-14 10:34:02.410 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0006.xml (793 bajtova), hash 0758b184f90d7b8661d99edb2baa92719ab5e74aea112c62127d7beb2d9f843e
+2026-09-14 10:34:02.427 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0008.xml (969 bajtova), hash 95c914ab9d15ed175bb6264dc8ddc9640755734b57373b2978e0d15e63b6bf30
+2026-09-14 10:34:03.427 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0006.xml
+2026-09-14 10:34:03.428 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0005.xml
+2026-09-14 10:34:03.446 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0007.xml
+2026-09-14 10:34:03.455 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0006.xml premjesten u processed kao faktura-0006.xml
+2026-09-14 10:34:03.456 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0005.xml premjesten u processed kao faktura-0005.xml
+2026-09-14 10:34:03.468 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0007.xml premjesten u processed kao faktura-0007.xml
+2026-09-14 10:34:03.469 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0008.xml
+2026-09-14 10:34:03.470 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0008.xml premjesten u processed kao faktura-0008.xml
+2026-09-14 10:34:03.675 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0011.xml (472 bajtova), hash 37c7cceb92f1de3ed0f4a48a15693e4216f3337cdafb8ebe015198315db7f062
+2026-09-14 10:34:03.678 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0011.xml
+2026-09-14 10:34:03.675 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0010.xml (485 bajtova), hash f556673864f086d99382ac6a9e65ac3bb884fdcfc09fb87d1b6f3e2d5d0d6e4b
+2026-09-14 10:34:03.681 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0011.xml premjesten u processed kao faktura-0011.xml
+2026-09-14 10:34:03.695 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0012.xml (823 bajtova), hash 5edc5095850d07ca9a111ed0d1698b24e315b1db49ec20db503d4ff28bbf6f14
+2026-09-14 10:34:03.698 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0012.xml
+2026-09-14 10:34:03.701 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0012.xml premjesten u processed kao faktura-0012.xml
+2026-09-14 10:34:03.680 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0010.xml
+2026-09-14 10:34:03.716 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0010.xml premjesten u processed kao faktura-0010.xml
+2026-09-14 10:34:03.730 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0009.xml (471 bajtova), hash da2ea5b3ed9f2a5f9dd8119ebad81b15b71ab585907c6ca19466d35309ae8997
+2026-09-14 10:34:03.734 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0009.xml
+2026-09-14 10:34:03.742 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0009.xml premjesten u processed kao faktura-0009.xml
+2026-09-14 10:34:03.891 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0013.xml (812 bajtova), hash 80245375e6fdf9f2fcb67c40f8f31345c29ab9c19cdaae2d5983d87f4cddca59
+2026-09-14 10:34:03.893 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0013.xml
+2026-09-14 10:34:03.895 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0013.xml premjesten u processed kao faktura-0013.xml
+2026-09-14 10:39:16.863 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-14 10:39:16.869 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\inbox
+2026-09-14 10:39:16.872 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\.\data\invoices\processed
+2026-09-14 10:39:16.872 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-14 10:39:16.876 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:39:16.876 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:39:16.876 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:39:16.876 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-14 10:39:16.877 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-14 10:39:16.882 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-14 10:39:16.893 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-14 10:39:16.901 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno
+2026-09-14 10:39:35.654 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0010.xml
+2026-09-14 10:39:35.660 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0011.xml
+2026-09-14 10:39:35.668 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0012.xml
+2026-09-14 10:39:35.690 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0013.xml
+2026-09-14 10:39:35.698 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0014.xml
+2026-09-14 10:39:35.709 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0015.xml
+2026-09-14 10:39:35.718 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0016.xml
+2026-09-14 10:39:35.727 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0017.xml
+2026-09-14 10:39:35.734 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0018.xml
+2026-09-14 10:39:35.741 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0019.xml
+2026-09-14 10:39:35.747 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0020.xml
+2026-09-14 10:39:35.754 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0021.xml
+2026-09-14 10:39:35.759 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Detektovan fajl: faktura-0022.xml
+2026-09-14 10:39:35.918 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:39:35.918 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:39:35.918 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:39:35.918 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Povezan na Parser servis localhost:9000
+2026-09-14 10:39:35.977 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0010.xml (485 bajtova), hash f556673864f086d99382ac6a9e65ac3bb884fdcfc09fb87d1b6f3e2d5d0d6e4b
+2026-09-14 10:39:35.978 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0012.xml (823 bajtova), hash 5edc5095850d07ca9a111ed0d1698b24e315b1db49ec20db503d4ff28bbf6f14
+2026-09-14 10:39:35.982 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0011.xml (472 bajtova), hash 37c7cceb92f1de3ed0f4a48a15693e4216f3337cdafb8ebe015198315db7f062
+2026-09-14 10:39:35.982 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0013.xml (812 bajtova), hash 80245375e6fdf9f2fcb67c40f8f31345c29ab9c19cdaae2d5983d87f4cddca59
+2026-09-14 10:39:36.038 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0012.xml
+2026-09-14 10:39:36.037 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0011.xml
+2026-09-14 10:39:36.037 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0013.xml
+2026-09-14 10:39:36.039 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0010.xml
+2026-09-14 10:39:36.058 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0011.xml premjesten u processed kao faktura-0011.xml
+2026-09-14 10:39:36.058 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0013.xml premjesten u processed kao faktura-0013.xml
+2026-09-14 10:39:36.073 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0010.xml premjesten u processed kao faktura-0010.xml
+2026-09-14 10:39:36.073 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0012.xml premjesten u processed kao faktura-0012.xml
+2026-09-14 10:39:36.263 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0014.xml (799 bajtova), hash 0bb16e975155c331923556c1e165f59e12e2d50f06bbf22a5213f4ac30aa32b9
+2026-09-14 10:39:36.264 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0015.xml (460 bajtova), hash 78da0dd4e9837da1cffefca2c304de7c1203fed4dd5b4923a1c22f693abf1548
+2026-09-14 10:39:36.278 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0017.xml (474 bajtova), hash 93735f74151d1588311bcd82bbecb7e68fc6f618e1ce932494809bf0292cd168
+2026-09-14 10:39:36.279 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0016.xml (807 bajtova), hash b5df213d1f5abcb9e9ead5e15108123245c24e8e613f0f4ed8c0ff531fe2fb7a
+2026-09-14 10:39:37.173 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0016.xml
+2026-09-14 10:39:37.176 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0016.xml premjesten u processed kao faktura-0016.xml
+2026-09-14 10:39:37.200 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0014.xml
+2026-09-14 10:39:37.201 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0014.xml premjesten u processed kao faktura-0014.xml
+2026-09-14 10:39:37.216 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0015.xml
+2026-09-14 10:39:37.220 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0015.xml premjesten u processed kao faktura-0015.xml
+2026-09-14 10:39:37.256 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0017.xml
+2026-09-14 10:39:37.259 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0017.xml premjesten u processed kao faktura-0017.xml
+2026-09-14 10:39:37.399 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0018.xml (465 bajtova), hash 8ce82ab4918cc2b7532a92f7c7775016f414221ca795b7800b938f1383d31275
+2026-09-14 10:39:37.404 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0018.xml
+2026-09-14 10:39:37.408 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0018.xml premjesten u processed kao faktura-0018.xml
+2026-09-14 10:39:37.417 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0019.xml (811 bajtova), hash 1e18d9a6b9851512e96706ca205a27245492b80d17a62b63f7f00adc3d043601
+2026-09-14 10:39:37.418 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0019.xml
+2026-09-14 10:39:37.421 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0019.xml premjesten u processed kao faktura-0019.xml
+2026-09-14 10:39:37.431 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0020.xml (972 bajtova), hash c6d33061543aa3fafab54bf9413a669b4d4bf2ae42a8063afc7aa6fc2deb6ff8
+2026-09-14 10:39:37.432 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0020.xml
+2026-09-14 10:39:37.436 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0020.xml premjesten u processed kao faktura-0020.xml
+2026-09-14 10:39:37.477 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0021.xml (474 bajtova), hash 49b539e9e7af74e40bcd662f1767c2797161b51501a381ee7f45525724d2cf13
+2026-09-14 10:39:37.478 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0021.xml
+2026-09-14 10:39:37.481 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0021.xml premjesten u processed kao faktura-0021.xml
+2026-09-14 10:39:37.615 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Poslan fajl faktura-0022.xml (473 bajtova), hash 38929ba1834d286b50787c0b5a2f597f18de9d80aaf7f09a01d310e7eef980e6
+2026-09-14 10:39:37.618 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.net.ParserClient - Odgovor Parsera: ACK:faktura-0022.xml
+2026-09-14 10:39:37.621 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Fajl faktura-0022.xml premjesten u processed kao faktura-0022.xml

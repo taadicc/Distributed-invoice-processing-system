@@ -1,0 +1,8 @@
+net\unibl\etf\mdp\parser\xml\InvoiceXmlParser.class
+net\unibl\etf\mdp\parser\redis\DuplicateChecker.class
+net\unibl\etf\mdp\parser\net\TcpServer.class
+net\unibl\etf\mdp\parser\ParserApp.class
+net\unibl\etf\mdp\parser\rmi\ValidatorClient.class
+net\unibl\etf\mdp\parser\net\ClientHandler.class
+net\unibl\etf\mdp\parser\redis\RedisClient.class
+net\unibl\etf\mdp\parser\mq\InvoicePublisher.class

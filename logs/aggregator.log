@@ -1,0 +1,291 @@
+2026-09-11 16:35:32.479 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Pokretanje Aggregator servisa...
+2026-09-11 16:35:32.748 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-11 16:35:32.884 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis odgovorio: PONG
+2026-09-11 16:35:32.930 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast salje kroz interfejs loopback_0 (Software Loopback Interface 1)
+2026-09-11 16:35:32.930 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast notifier spreman za grupu 239.0.0.1:4446
+2026-09-11 16:35:33.309 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.validated
+2026-09-11 16:35:33.316 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.rejected
+2026-09-11 16:35:33.322 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.enriched
+2026-09-11 16:35:33.327 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.approved
+2026-09-11 16:35:33.333 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.pending_approval
+2026-09-11 16:35:33.339 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.failed
+2026-09-11 16:35:33.340 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Aggregator prati 6 topica
+2026-09-11 16:35:33.340 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Aggregator servis je spreman.
+2026-09-11 16:38:27.895 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0003
+2026-09-11 16:38:28.085 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0003 sacuvana u Redis (status: rejected)
+2026-09-11 16:38:28.090 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0002
+2026-09-11 16:38:28.126 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: validated)
+2026-09-11 16:38:28.128 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0004
+2026-09-11 16:38:28.200 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: validated)
+2026-09-11 16:38:28.202 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0001
+2026-09-11 16:38:28.267 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: validated)
+2026-09-11 16:38:28.270 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0007
+2026-09-11 16:38:28.362 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: validated)
+2026-09-11 16:38:28.364 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0005
+2026-09-11 16:38:28.453 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0005 sacuvana u Redis (status: rejected)
+2026-09-11 16:38:28.455 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0008
+2026-09-11 16:38:28.528 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: validated)
+2026-09-11 16:38:28.531 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0006
+2026-09-11 16:38:28.587 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0006 sacuvana u Redis (status: rejected)
+2026-09-11 16:38:31.189 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0002
+2026-09-11 16:38:31.239 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: enriched)
+2026-09-11 16:38:31.298 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0004
+2026-09-11 16:38:31.358 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: enriched)
+2026-09-11 16:38:31.383 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0001
+2026-09-11 16:38:31.436 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: enriched)
+2026-09-11 16:38:31.461 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0007
+2026-09-11 16:38:31.514 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: enriched)
+2026-09-11 16:38:31.589 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0008
+2026-09-11 16:38:31.661 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: enriched)
+2026-09-11 16:38:32.320 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0002
+2026-09-11 16:38:32.350 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: approved)
+2026-09-11 16:38:32.364 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 3495375475733 azuriran: ukupno 31.08 BAM, faktura INV-2026-0002
+2026-09-11 16:38:32.380 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0002: {"invoiceId":"INV-2026-0002","clientName":"Nova Banka","totalBAM":31.08,"status":"approved","timestamp":"2026-09-11T16:38:32.364795600"}
+2026-09-11 16:38:32.383 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0004
+2026-09-11 16:38:32.445 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: pending)
+2026-09-11 16:38:32.465 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0001
+2026-09-11 16:38:32.492 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: pending)
+2026-09-11 16:38:32.524 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0007
+2026-09-11 16:38:32.566 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: pending)
+2026-09-11 16:38:32.602 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0008
+2026-09-11 16:38:32.723 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: pending)
+2026-09-11 17:15:59.618 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0001
+2026-09-11 17:15:59.641 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: approved)
+2026-09-11 17:15:59.654 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 4055893226262 azuriran: ukupno 4715.73 BAM, faktura INV-2026-0001
+2026-09-11 17:15:59.655 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0001: {"invoiceId":"INV-2026-0001","clientName":"Autoprevoz","totalBAM":4715.73,"status":"approved","timestamp":"2026-09-11T17:15:59.654937800"}
+2026-09-14 10:32:26.206 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Pokretanje Aggregator servisa...
+2026-09-14 10:32:26.477 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:32:26.579 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis odgovorio: PONG
+2026-09-14 10:32:26.625 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast salje kroz interfejs loopback_0 (Software Loopback Interface 1)
+2026-09-14 10:32:26.628 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast notifier spreman za grupu 239.0.0.1:4446
+2026-09-14 10:32:27.001 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.validated
+2026-09-14 10:32:27.013 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.rejected
+2026-09-14 10:32:27.026 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.enriched
+2026-09-14 10:32:27.038 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.approved
+2026-09-14 10:32:27.049 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.pending_approval
+2026-09-14 10:32:27.057 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.failed
+2026-09-14 10:32:27.058 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Aggregator prati 6 topica
+2026-09-14 10:32:27.059 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Aggregator servis je spreman.
+2026-09-14 10:34:04.262 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0001
+2026-09-14 10:34:04.363 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.369 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0003
+2026-09-14 10:34:04.387 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0003 sacuvana u Redis (status: rejected)
+2026-09-14 10:34:04.389 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0002
+2026-09-14 10:34:04.407 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.409 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0004
+2026-09-14 10:34:04.425 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.427 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0007
+2026-09-14 10:34:04.447 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.449 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0005
+2026-09-14 10:34:04.464 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0005 sacuvana u Redis (status: rejected)
+2026-09-14 10:34:04.466 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0006
+2026-09-14 10:34:04.477 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0006 sacuvana u Redis (status: rejected)
+2026-09-14 10:34:04.479 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0008
+2026-09-14 10:34:04.492 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.493 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0011
+2026-09-14 10:34:04.507 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.510 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0012
+2026-09-14 10:34:04.521 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.523 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0010
+2026-09-14 10:34:04.534 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.536 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0009
+2026-09-14 10:34:04.547 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0009 sacuvana u Redis (status: validated)
+2026-09-14 10:34:04.550 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0013
+2026-09-14 10:34:04.570 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: validated)
+2026-09-14 10:34:06.189 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0001
+2026-09-14 10:34:06.223 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.262 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0002
+2026-09-14 10:34:06.286 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.313 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0004
+2026-09-14 10:34:06.340 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.363 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0007
+2026-09-14 10:34:06.384 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.405 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0008
+2026-09-14 10:34:06.423 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.444 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0011
+2026-09-14 10:34:06.461 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.478 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0012
+2026-09-14 10:34:06.494 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.514 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0010
+2026-09-14 10:34:06.535 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.554 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0009
+2026-09-14 10:34:06.579 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0009 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:06.610 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0013
+2026-09-14 10:34:06.625 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: enriched)
+2026-09-14 10:34:07.288 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0001
+2026-09-14 10:34:07.318 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.356 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0002
+2026-09-14 10:34:07.375 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0002 sacuvana u Redis (status: approved)
+2026-09-14 10:34:07.388 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 3495375475733 azuriran: ukupno 30.99 BAM, faktura INV-2026-0002
+2026-09-14 10:34:07.405 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0002: {"invoiceId":"INV-2026-0002","clientName":"Nova Banka","totalBAM":30.99,"status":"approved","timestamp":"2026-09-14T10:34:07.389156800"}
+2026-09-14 10:34:07.407 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0004
+2026-09-14 10:34:07.441 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.458 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0007
+2026-09-14 10:34:07.482 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.496 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0008
+2026-09-14 10:34:07.522 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.538 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0011
+2026-09-14 10:34:07.565 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.582 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0012
+2026-09-14 10:34:07.601 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: pending)
+2026-09-14 10:34:07.619 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0010
+2026-09-14 10:34:07.657 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: approved)
+2026-09-14 10:34:07.686 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 8906475796408 azuriran: ukupno 21.00 BAM, faktura INV-2026-0010
+2026-09-14 10:34:07.687 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0010: {"invoiceId":"INV-2026-0010","clientName":"Digital Cube","totalBAM":21.00,"status":"approved","timestamp":"2026-09-14T10:34:07.686610900"}
+2026-09-14 10:34:07.688 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0009
+2026-09-14 10:34:07.722 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0009 sacuvana u Redis (status: approved)
+2026-09-14 10:34:07.739 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 0661081110535 azuriran: ukupno 34.00 BAM, faktura INV-2026-0009
+2026-09-14 10:34:07.741 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0009: {"invoiceId":"INV-2026-0009","clientName":"Digital Cube","totalBAM":34.00,"status":"approved","timestamp":"2026-09-14T10:34:07.740646800"}
+2026-09-14 10:34:07.743 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0013
+2026-09-14 10:34:07.761 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: pending)
+2026-09-14 10:35:29.866 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0001
+2026-09-14 10:35:29.883 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0001 sacuvana u Redis (status: approved)
+2026-09-14 10:35:29.896 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 4055893226262 azuriran: ukupno 4715.73 BAM, faktura INV-2026-0001
+2026-09-14 10:35:29.898 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0001: {"invoiceId":"INV-2026-0001","clientName":"Autoprevoz","totalBAM":4715.73,"status":"approved","timestamp":"2026-09-14T10:35:29.897208100"}
+2026-09-14 10:35:30.658 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0004
+2026-09-14 10:35:30.672 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0004 sacuvana u Redis (status: approved)
+2026-09-14 10:35:30.686 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 7635939668002 azuriran: ukupno 12913.03 BAM, faktura INV-2026-0004
+2026-09-14 10:35:30.688 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0004: {"invoiceId":"INV-2026-0004","clientName":"Comtrade","totalBAM":12913.03,"status":"approved","timestamp":"2026-09-14T10:35:30.686847800"}
+2026-09-14 10:35:31.264 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0007
+2026-09-14 10:35:31.283 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0007 sacuvana u Redis (status: approved)
+2026-09-14 10:35:31.294 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 9094565218368 azuriran: ukupno 12582.81 BAM, faktura INV-2026-0007
+2026-09-14 10:35:31.296 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0007: {"invoiceId":"INV-2026-0007","clientName":"Lanaco","totalBAM":12582.81,"status":"approved","timestamp":"2026-09-14T10:35:31.295393900"}
+2026-09-14 10:35:31.823 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0008
+2026-09-14 10:35:31.840 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0008 sacuvana u Redis (status: approved)
+2026-09-14 10:35:31.851 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 9721400388459 azuriran: ukupno 24530.49 BAM, faktura INV-2026-0008
+2026-09-14 10:35:31.853 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0008: {"invoiceId":"INV-2026-0008","clientName":"Digital Cube","totalBAM":24530.49,"status":"approved","timestamp":"2026-09-14T10:35:31.852124600"}
+2026-09-14 10:35:32.414 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0011
+2026-09-14 10:35:32.432 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: approved)
+2026-09-14 10:35:32.445 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 9270698500892 azuriran: ukupno 1732.00 BAM, faktura INV-2026-0011
+2026-09-14 10:35:32.446 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0011: {"invoiceId":"INV-2026-0011","clientName":"Bosnalijek","totalBAM":1732.00,"status":"approved","timestamp":"2026-09-14T10:35:32.445780"}
+2026-09-14 10:35:32.938 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0012
+2026-09-14 10:35:32.956 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: approved)
+2026-09-14 10:35:32.970 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 0933625844345 azuriran: ukupno 6737.72 BAM, faktura INV-2026-0012
+2026-09-14 10:35:32.971 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0012: {"invoiceId":"INV-2026-0012","clientName":"Digital Cube","totalBAM":6737.72,"status":"approved","timestamp":"2026-09-14T10:35:32.970699900"}
+2026-09-14 10:35:33.553 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0013
+2026-09-14 10:35:33.569 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: approved)
+2026-09-14 10:35:33.580 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 6731694761823 azuriran: ukupno 6133.45 BAM, faktura INV-2026-0013
+2026-09-14 10:35:33.581 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0013: {"invoiceId":"INV-2026-0013","clientName":"Vodovod ad","totalBAM":6133.45,"status":"approved","timestamp":"2026-09-14T10:35:33.580652700"}
+2026-09-14 10:39:03.906 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Pokretanje Aggregator servisa...
+2026-09-14 10:39:04.125 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis pool inicijalizovan za localhost:6379
+2026-09-14 10:39:04.249 [main] INFO  net.unibl.etf.mdp.aggregator.redis.RedisClient - Redis odgovorio: PONG
+2026-09-14 10:39:04.260 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast salje kroz interfejs loopback_0 (Software Loopback Interface 1)
+2026-09-14 10:39:04.261 [main] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - Multicast notifier spreman za grupu 239.0.0.1:4446
+2026-09-14 10:39:04.592 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.validated
+2026-09-14 10:39:04.597 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.rejected
+2026-09-14 10:39:04.601 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.enriched
+2026-09-14 10:39:04.605 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.approved
+2026-09-14 10:39:04.610 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.pending_approval
+2026-09-14 10:39:04.615 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Pretplacen na topic invoices.failed
+2026-09-14 10:39:04.616 [main] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - Aggregator prati 6 topica
+2026-09-14 10:39:04.617 [main] INFO  net.unibl.etf.mdp.aggregator.AggregatorApp - Aggregator servis je spreman.
+2026-09-14 10:39:38.071 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0010
+2026-09-14 10:39:38.189 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.194 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0011
+2026-09-14 10:39:38.217 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.221 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0013
+2026-09-14 10:39:38.238 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.241 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0012
+2026-09-14 10:39:38.260 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.263 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0016
+2026-09-14 10:39:38.284 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0016 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.288 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0014
+2026-09-14 10:39:38.315 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0014 sacuvana u Redis (status: rejected)
+2026-09-14 10:39:38.318 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0017
+2026-09-14 10:39:38.336 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0017 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.339 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0015
+2026-09-14 10:39:38.357 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0015 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.360 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0018
+2026-09-14 10:39:38.380 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0018 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.386 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.rejected] primljena faktura INV-2026-0019
+2026-09-14 10:39:38.409 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0019 sacuvana u Redis (status: rejected)
+2026-09-14 10:39:38.412 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0020
+2026-09-14 10:39:38.431 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0020 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.433 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0021
+2026-09-14 10:39:38.450 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0021 sacuvana u Redis (status: validated)
+2026-09-14 10:39:38.452 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.validated] primljena faktura INV-2026-0022
+2026-09-14 10:39:38.472 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0022 sacuvana u Redis (status: validated)
+2026-09-14 10:39:40.284 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0010
+2026-09-14 10:39:40.305 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.364 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0011
+2026-09-14 10:39:40.387 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.436 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0013
+2026-09-14 10:39:40.463 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.508 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0012
+2026-09-14 10:39:40.521 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.545 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0016
+2026-09-14 10:39:40.560 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0016 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.587 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0017
+2026-09-14 10:39:40.599 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0017 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.622 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0015
+2026-09-14 10:39:40.634 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0015 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.657 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0018
+2026-09-14 10:39:40.669 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0018 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.698 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0020
+2026-09-14 10:39:40.711 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0020 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.732 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0021
+2026-09-14 10:39:40.744 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0021 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:40.765 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.enriched] primljena faktura INV-2026-0022
+2026-09-14 10:39:40.777 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0022 sacuvana u Redis (status: enriched)
+2026-09-14 10:39:41.281 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0010
+2026-09-14 10:39:41.303 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0010 sacuvana u Redis (status: approved)
+2026-09-14 10:39:41.321 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 8906475796408 azuriran: ukupno 21.00 BAM, faktura INV-2026-0010
+2026-09-14 10:39:41.338 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0010: {"invoiceId":"INV-2026-0010","clientName":"Digital Cube","totalBAM":21.00,"status":"approved","timestamp":"2026-09-14T10:39:41.322452100"}
+2026-09-14 10:39:41.347 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0011
+2026-09-14 10:39:41.368 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.397 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0013
+2026-09-14 10:39:41.411 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.432 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0012
+2026-09-14 10:39:41.444 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.470 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0016
+2026-09-14 10:39:41.485 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0016 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.516 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0017
+2026-09-14 10:39:41.532 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0017 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.551 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0015
+2026-09-14 10:39:41.586 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0015 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.613 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0018
+2026-09-14 10:39:41.630 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0018 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.662 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0020
+2026-09-14 10:39:41.675 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0020 sacuvana u Redis (status: pending)
+2026-09-14 10:39:41.693 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0021
+2026-09-14 10:39:41.705 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0021 sacuvana u Redis (status: approved)
+2026-09-14 10:39:41.714 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 2594942346001 azuriran: ukupno 47.89 BAM, faktura INV-2026-0021
+2026-09-14 10:39:41.715 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0021: {"invoiceId":"INV-2026-0021","clientName":"Prointer ITSS","totalBAM":47.89,"status":"approved","timestamp":"2026-09-14T10:39:41.714872700"}
+2026-09-14 10:39:41.725 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.pending_approval] primljena faktura INV-2026-0022
+2026-09-14 10:39:41.739 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0022 sacuvana u Redis (status: pending)
+2026-09-14 10:40:36.270 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0011
+2026-09-14 10:40:36.283 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0011 sacuvana u Redis (status: approved)
+2026-09-14 10:40:36.293 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 9270698500892 azuriran: ukupno 1732.00 BAM, faktura INV-2026-0011
+2026-09-14 10:40:36.295 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0011: {"invoiceId":"INV-2026-0011","clientName":"Bosnalijek","totalBAM":1732.00,"status":"approved","timestamp":"2026-09-14T10:40:36.293843100"}
+2026-09-14 10:41:09.437 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0013
+2026-09-14 10:41:09.455 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0013 sacuvana u Redis (status: approved)
+2026-09-14 10:41:09.468 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 6731694761823 azuriran: ukupno 6133.45 BAM, faktura INV-2026-0013
+2026-09-14 10:41:09.469 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0013: {"invoiceId":"INV-2026-0013","clientName":"Vodovod ad","totalBAM":6133.45,"status":"approved","timestamp":"2026-09-14T10:41:09.468760"}
+2026-09-14 10:41:19.381 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0012
+2026-09-14 10:41:19.398 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0012 sacuvana u Redis (status: approved)
+2026-09-14 10:41:19.410 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 0933625844345 azuriran: ukupno 6737.72 BAM, faktura INV-2026-0012
+2026-09-14 10:41:19.412 [ActiveMQ Session Task-4] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0012: {"invoiceId":"INV-2026-0012","clientName":"Digital Cube","totalBAM":6737.72,"status":"approved","timestamp":"2026-09-14T10:41:19.411009100"}
+2026-09-14 10:42:32.333 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0016
+2026-09-14 10:42:32.351 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0016 sacuvana u Redis (status: approved)
+2026-09-14 10:42:32.363 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 5784349186991 azuriran: ukupno 11131.61 BAM, faktura INV-2026-0016
+2026-09-14 10:42:32.365 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0016: {"invoiceId":"INV-2026-0016","clientName":"Sberbank","totalBAM":11131.61,"status":"approved","timestamp":"2026-09-14T10:42:32.364033500"}
+2026-09-14 10:42:32.593 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0017
+2026-09-14 10:42:32.620 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0017 sacuvana u Redis (status: approved)
+2026-09-14 10:42:32.632 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 4185179987349 azuriran: ukupno 12675.68 BAM, faktura INV-2026-0017
+2026-09-14 10:42:32.634 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0017: {"invoiceId":"INV-2026-0017","clientName":"Comtrade","totalBAM":12675.68,"status":"approved","timestamp":"2026-09-14T10:42:32.633564100"}
+2026-09-14 10:42:32.841 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0015
+2026-09-14 10:42:32.859 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0015 sacuvana u Redis (status: approved)
+2026-09-14 10:42:32.872 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 7383810201788 azuriran: ukupno 6123.93 BAM, faktura INV-2026-0015
+2026-09-14 10:42:32.874 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0015: {"invoiceId":"INV-2026-0015","clientName":"M-tel","totalBAM":6123.93,"status":"approved","timestamp":"2026-09-14T10:42:32.872997800"}
+2026-09-14 10:42:32.967 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0018
+2026-09-14 10:42:32.983 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0018 sacuvana u Redis (status: approved)
+2026-09-14 10:42:32.995 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 6785807646107 azuriran: ukupno 11773.51 BAM, faktura INV-2026-0018
+2026-09-14 10:42:32.997 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0018: {"invoiceId":"INV-2026-0018","clientName":"Digital Cube","totalBAM":11773.51,"status":"approved","timestamp":"2026-09-14T10:42:32.996319600"}
+2026-09-14 10:42:33.118 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0020
+2026-09-14 10:42:33.136 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0020 sacuvana u Redis (status: approved)
+2026-09-14 10:42:33.170 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 0531019406478 azuriran: ukupno 14027.05 BAM, faktura INV-2026-0020
+2026-09-14 10:42:33.172 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0020: {"invoiceId":"INV-2026-0020","clientName":"M-tel","totalBAM":14027.05,"status":"approved","timestamp":"2026-09-14T10:42:33.171593700"}
+2026-09-14 10:42:33.237 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.mq.AggregatorListener - [invoices.approved] primljena faktura INV-2026-0022
+2026-09-14 10:42:33.251 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Faktura INV-2026-0022 sacuvana u Redis (status: approved)
+2026-09-14 10:42:33.260 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.store.InvoiceStore - Klijent 5324232969335 azuriran: ukupno 978.87 BAM, faktura INV-2026-0022
+2026-09-14 10:42:33.262 [ActiveMQ Session Task-5] INFO  net.unibl.etf.mdp.aggregator.udp.MulticastNotifier - UDP multicast poslan za fakturu INV-2026-0022: {"invoiceId":"INV-2026-0022","clientName":"Bosnalijek","totalBAM":978.87,"status":"approved","timestamp":"2026-09-14T10:42:33.261232100"}
