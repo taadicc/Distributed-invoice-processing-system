@@ -1,0 +1,12 @@
+2026-09-08 23:05:43.557 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Pokretanje Watcher servisa...
+2026-09-08 23:05:43.564 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Inbox: C:\Users\MM\eclipse-workspace\mdp-projekat\watcher\.\data\invoices\inbox
+2026-09-08 23:05:43.569 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Processed: C:\Users\MM\eclipse-workspace\mdp-projekat\watcher\.\data\invoices\processed
+2026-09-08 23:05:43.569 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Sender niti: 4, kapacitet reda: 1000
+2026-09-08 23:05:43.575 [pool-1-thread-3] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:05:43.576 [pool-1-thread-4] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:05:43.575 [pool-1-thread-1] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:05:43.575 [pool-1-thread-2] INFO  net.unibl.etf.mdp.watcher.send.FileSender - Sender nit pokrenuta
+2026-09-08 23:05:43.577 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniram postojece fajlove u .\data\invoices\inbox
+2026-09-08 23:05:43.582 [main] INFO  net.unibl.etf.mdp.watcher.WatcherApp - Watcher servis je spreman.
+2026-09-08 23:05:43.585 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Skeniranje zavrseno, ubaceno 0 fajlova
+2026-09-08 23:05:43.594 [inbox-watcher] INFO  net.unibl.etf.mdp.watcher.fs.InboxWatcher - Pracenje foldera .\data\invoices\inbox je aktivno

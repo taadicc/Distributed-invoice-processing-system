@@ -1,0 +1,4 @@
+net\unibl\etf\mdp\watcher\send\FileSender.class
+net\unibl\etf\mdp\watcher\WatcherApp.class
+net\unibl\etf\mdp\watcher\net\ParserClient.class
+net\unibl\etf\mdp\watcher\fs\InboxWatcher.class
