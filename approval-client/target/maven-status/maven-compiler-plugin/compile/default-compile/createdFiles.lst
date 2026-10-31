@@ -1,0 +1,6 @@
+net\unibl\etf\mdp\approvalclient\ui\ApprovalFrame.class
+net\unibl\etf\mdp\approvalclient\ui\ApprovalFrame$1.class
+net\unibl\etf\mdp\approvalclient\mq\PendingConsumer.class
+net\unibl\etf\mdp\approvalclient\mq\InvoicePublisher.class
+net\unibl\etf\mdp\approvalclient\ui\ApprovalFrame$InvoiceCellRenderer.class
+net\unibl\etf\mdp\approvalclient\ApprovalClientApp.class

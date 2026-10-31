@@ -1,0 +1,3 @@
+net\unibl\etf\mdp\approval\ApprovalApp.class
+net\unibl\etf\mdp\approval\mq\EnrichedListener.class
+net\unibl\etf\mdp\approval\mq\InvoicePublisher.class

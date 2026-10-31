@@ -1,0 +1,11 @@
+net\unibl\etf\mdp\common\model\InvoiceItem.class
+net\unibl\etf\mdp\common\config\AppConfig.class
+net\unibl\etf\mdp\common\model\Client.class
+net\unibl\etf\mdp\common\config\Status.class
+net\unibl\etf\mdp\common\config\Topics.class
+net\unibl\etf\mdp\common\config\Protocol.class
+net\unibl\etf\mdp\common\util\HashUtil.class
+net\unibl\etf\mdp\common\util\JsonUtil.class
+net\unibl\etf\mdp\common\model\Invoice.class
+net\unibl\etf\mdp\common\rmi\ValidatorService.class
+net\unibl\etf\mdp\common\model\ValidationResult.class

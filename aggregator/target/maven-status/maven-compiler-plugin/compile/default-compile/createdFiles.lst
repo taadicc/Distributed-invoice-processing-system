@@ -1,0 +1,6 @@
+net\unibl\etf\mdp\aggregator\udp\MulticastNotifier.class
+net\unibl\etf\mdp\aggregator\mq\AggregatorListener$TopicHandler.class
+net\unibl\etf\mdp\aggregator\store\InvoiceStore.class
+net\unibl\etf\mdp\aggregator\AggregatorApp.class
+net\unibl\etf\mdp\aggregator\mq\AggregatorListener.class
+net\unibl\etf\mdp\aggregator\redis\RedisClient.class

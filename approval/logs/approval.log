@@ -1,0 +1,101 @@
+2026-09-11 12:23:42.048 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 12:23:42.468 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 12:23:42.472 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 12:24:45.488 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-001 sa iznosom 1212.61 BAM
+2026-09-11 12:24:45.488 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-001 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 12:24:45.491 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 12:24:45.577 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-001 poslana na topic invoices.pending_approval
+2026-09-11 12:27:10.243 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-002 sa iznosom 50.00 BAM
+2026-09-11 12:27:10.245 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-002 (50.00 BAM <= 100 BAM) — AUTOMATSKI ODOBRENA
+2026-09-11 12:27:10.310 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-002 poslana na topic invoices.approved
+2026-09-11 13:03:10.749 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:03:11.163 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 13:03:11.167 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 13:03:19.452 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:03:19.883 [main] ERROR net.unibl.etf.mdp.approval.ApprovalApp - Ne mogu se pretplatiti na MQ topic
+javax.jms.InvalidClientIDException: Broker: localhost - Client: approval-service already connected from tcp://172.18.0.1:52136
+	at org.apache.activemq.broker.region.RegionBroker.addConnection(RegionBroker.java:265)
+	at org.apache.activemq.broker.jmx.ManagedRegionBroker.addConnection(ManagedRegionBroker.java:230)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.advisory.AdvisoryBroker.addConnection(AdvisoryBroker.java:119)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.TransportConnection.processAddConnection(TransportConnection.java:853)
+	at org.apache.activemq.broker.jmx.ManagedTransportConnection.processAddConnection(ManagedTransportConnection.java:77)
+	at org.apache.activemq.command.ConnectionInfo.visit(ConnectionInfo.java:139)
+	at org.apache.activemq.broker.TransportConnection.service(TransportConnection.java:336)
+	at org.apache.activemq.broker.TransportConnection$1.onCommand(TransportConnection.java:200)
+	at org.apache.activemq.transport.MutexTransport.onCommand(MutexTransport.java:50)
+	at org.apache.activemq.transport.WireFormatNegotiator.onCommand(WireFormatNegotiator.java:125)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onCommand(AbstractInactivityMonitor.java:302)
+	at org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Unknown Source)
+2026-09-11 13:03:46.229 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:03:46.695 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 13:03:46.700 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 13:09:14.277 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-003 sa iznosom 1212.61 BAM
+2026-09-11 13:09:14.279 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-003 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 13:09:14.284 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 13:09:14.478 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-003 poslana na topic invoices.pending_approval
+2026-09-11 13:16:19.257 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:16:19.604 [main] ERROR net.unibl.etf.mdp.approval.ApprovalApp - Ne mogu se pretplatiti na MQ topic
+javax.jms.InvalidClientIDException: Broker: localhost - Client: approval-service already connected from tcp://172.18.0.1:35258
+	at org.apache.activemq.broker.region.RegionBroker.addConnection(RegionBroker.java:265)
+	at org.apache.activemq.broker.jmx.ManagedRegionBroker.addConnection(ManagedRegionBroker.java:230)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.advisory.AdvisoryBroker.addConnection(AdvisoryBroker.java:119)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.BrokerFilter.addConnection(BrokerFilter.java:99)
+	at org.apache.activemq.broker.TransportConnection.processAddConnection(TransportConnection.java:853)
+	at org.apache.activemq.broker.jmx.ManagedTransportConnection.processAddConnection(ManagedTransportConnection.java:77)
+	at org.apache.activemq.command.ConnectionInfo.visit(ConnectionInfo.java:139)
+	at org.apache.activemq.broker.TransportConnection.service(TransportConnection.java:336)
+	at org.apache.activemq.broker.TransportConnection$1.onCommand(TransportConnection.java:200)
+	at org.apache.activemq.transport.MutexTransport.onCommand(MutexTransport.java:50)
+	at org.apache.activemq.transport.WireFormatNegotiator.onCommand(WireFormatNegotiator.java:125)
+	at org.apache.activemq.transport.AbstractInactivityMonitor.onCommand(AbstractInactivityMonitor.java:302)
+	at org.apache.activemq.transport.TransportSupport.doConsume(TransportSupport.java:83)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:233)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:215)
+	at java.lang.Thread.run(Unknown Source)
+2026-09-11 13:17:08.045 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:17:08.436 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 13:17:08.441 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 13:19:36.699 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-033 sa iznosom 1212.61 BAM
+2026-09-11 13:19:36.700 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-033 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 13:19:36.703 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 13:19:36.906 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-033 poslana na topic invoices.pending_approval
+2026-09-11 13:24:25.198 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-333 sa iznosom 1212.61 BAM
+2026-09-11 13:24:25.199 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-333 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 13:24:25.240 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-333 poslana na topic invoices.pending_approval
+2026-09-11 13:25:23.067 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-433 sa iznosom 1212.61 BAM
+2026-09-11 13:25:23.067 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-433 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 13:25:23.132 [ActiveMQ Session Task-3] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-433 poslana na topic invoices.pending_approval
+2026-09-11 13:37:33.173 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 13:37:33.546 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 13:37:33.550 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 13:43:51.735 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-010 sa iznosom 1212.61 BAM
+2026-09-11 13:43:51.736 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-010 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 13:43:51.738 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 13:43:51.882 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-010 poslana na topic invoices.pending_approval
+2026-09-11 14:09:22.026 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 14:09:22.368 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 14:09:22.370 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 14:10:45.248 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-020 sa iznosom 1212.61 BAM
+2026-09-11 14:10:45.248 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-020 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 14:10:45.249 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 14:10:45.325 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-020 poslana na topic invoices.pending_approval
+2026-09-11 14:34:11.170 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Pokretanje Approval servisa...
+2026-09-11 14:34:11.499 [main] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Pretplacen na topic invoices.enriched (prag za automatsko odobrenje: 100 BAM)
+2026-09-11 14:34:11.502 [main] INFO  net.unibl.etf.mdp.approval.ApprovalApp - Approval servis je spreman i ceka fakture.
+2026-09-11 14:36:37.838 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-111 sa iznosom 1212.61 BAM
+2026-09-11 14:36:37.839 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-111 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 14:36:37.840 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - MQ connection factory inicijalizovana za tcp://localhost:61616
+2026-09-11 14:36:37.905 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-111 poslana na topic invoices.pending_approval
+2026-09-11 14:42:59.792 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Primljena faktura INV-2025-223 sa iznosom 1212.61 BAM
+2026-09-11 14:42:59.793 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.EnrichedListener - Faktura INV-2025-223 (1212.61 BAM > 100 BAM) — ceka rucno odobrenje
+2026-09-11 14:42:59.822 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approval.mq.InvoicePublisher - Faktura INV-2025-223 poslana na topic invoices.pending_approval

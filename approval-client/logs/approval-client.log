@@ -1,0 +1,45 @@
+2026-09-11 13:03:56.918 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 13:03:58.245 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 13:03:58.248 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 13:09:15.216 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-003
+2026-09-11 13:12:30.830 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-003 poslana na topic invoices.approved
+2026-09-11 13:12:30.884 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-003 odobrena
+2026-09-11 13:14:18.677 [Thread-2] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Gasenje Approval klijenta...
+2026-09-11 13:14:18.692 [Thread-2] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - MQ konekcija zatvorena
+2026-09-11 13:17:39.629 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 13:17:40.648 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 13:17:40.653 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 13:19:37.987 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-033
+2026-09-11 13:20:22.350 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-033 poslana na topic invoices.rejected
+2026-09-11 13:20:22.364 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-033 odbijena
+2026-09-11 13:23:22.469 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 13:23:23.443 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 13:23:23.446 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 13:24:26.249 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-333
+2026-09-11 13:25:23.138 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-433
+2026-09-11 13:26:19.358 [Thread-2] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Gasenje Approval klijenta...
+2026-09-11 13:26:19.386 [Thread-2] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - MQ konekcija zatvorena
+2026-09-11 13:38:26.462 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 13:38:27.346 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 13:38:27.349 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 13:42:17.825 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 13:42:19.292 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 13:42:19.297 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 13:43:52.808 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-010
+2026-09-11 13:44:10.724 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-010 poslana na topic invoices.approved
+2026-09-11 13:44:10.737 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-010 odobrena
+2026-09-11 14:09:40.427 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 14:09:41.143 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 14:09:41.145 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 14:10:46.036 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-020
+2026-09-11 14:10:57.595 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-020 poslana na topic invoices.approved
+2026-09-11 14:10:57.607 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-020 odobrena
+2026-09-11 14:34:43.697 [main] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Pokretanje Approval klijenta...
+2026-09-11 14:34:44.375 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Approval klijent pretplacen na topic invoices.pending_approval
+2026-09-11 14:34:44.377 [AWT-EventQueue-0] INFO  net.unibl.etf.mdp.approvalclient.ApprovalClientApp - Approval klijent je spreman.
+2026-09-11 14:36:38.252 [ActiveMQ Session Task-1] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-111
+2026-09-11 14:36:42.079 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-111 poslana na topic invoices.approved
+2026-09-11 14:36:42.095 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-111 odobrena
+2026-09-11 14:42:59.824 [ActiveMQ Session Task-2] INFO  net.unibl.etf.mdp.approvalclient.mq.PendingConsumer - Primljen zahtjev za odobrenje fakture INV-2025-223
+2026-09-11 14:43:02.516 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.mq.InvoicePublisher - Faktura INV-2025-223 poslana na topic invoices.approved
+2026-09-11 14:43:02.525 [odluka-sender] INFO  net.unibl.etf.mdp.approvalclient.ui.ApprovalFrame - Faktura INV-2025-223 odobrena

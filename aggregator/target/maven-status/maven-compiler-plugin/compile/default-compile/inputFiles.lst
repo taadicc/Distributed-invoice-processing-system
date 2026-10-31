@@ -1,0 +1,5 @@
+C:\Users\MM\eclipse-workspace\mdp-projekat\aggregator\src\main\java\net\unibl\etf\mdp\aggregator\AggregatorApp.java
+C:\Users\MM\eclipse-workspace\mdp-projekat\aggregator\src\main\java\net\unibl\etf\mdp\aggregator\mq\AggregatorListener.java
+C:\Users\MM\eclipse-workspace\mdp-projekat\aggregator\src\main\java\net\unibl\etf\mdp\aggregator\redis\RedisClient.java
+C:\Users\MM\eclipse-workspace\mdp-projekat\aggregator\src\main\java\net\unibl\etf\mdp\aggregator\store\InvoiceStore.java
+C:\Users\MM\eclipse-workspace\mdp-projekat\aggregator\src\main\java\net\unibl\etf\mdp\aggregator\udp\MulticastNotifier.java
